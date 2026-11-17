@@ -10,10 +10,9 @@ getting rough estimates of when you'll unlock each item.
 
 Enter the total XP you've earned in each of the six progression tracks. The tracker derives
 your progression track levels, your overall **Wardog level** (the sum of the progression
-track levels), and projects
-when each unlock is likely to happen based on the average XP pace you've kept since the
-season started. Everything is stored locally in your browser — there is no backend and
-no account.
+track levels), and projects when each unlock is likely to happen based on the average XP
+pace you've kept since the season started. Everything is stored locally in your browser —
+there is no backend and no account.
 
 ## Features
 
@@ -35,7 +34,8 @@ no account.
   `200` XP is therefore level `0` until they cross the first threshold.
 - The **Wardog level** is _not_ XP-based; it is the sum of the six progression track levels
   (e.g. `5 assault + 2 medic + 1 support + 1 recon + 1 pilot + 2 driver = 12`).
-- Unlocks are defined per track in [`assets/`](assets/). The progression tracks run to level
+- Unlocks are defined per track in [`static/data/tracks.json`](static/data/tracks.json). The
+  progression tracks run to level
   50; the overall Wardog track runs to level 200.
 
 ### Estimation
@@ -56,56 +56,38 @@ progression tracks you care about.
 Estimates are rough by design — they assume your average pace stays constant and ignore
 future changes in play time.
 
-## Data pipeline
+## Data
 
-The `assets/` directory holds the raw data. A build script turns it into the static
-assets served by the app.
+Everything the app fetches comes from a single committed file,
+[`static/data/index.json`](static/data/index.json), shaped as `{ season, levels, tracks,
+items }`. The other files in `static/data/` are the same content split up for convenience:
 
-| Raw input                 | Contents                                             |
-| ------------------------- | ---------------------------------------------------- |
-| `assets/raw_levels.json`  | Cumulative XP required for each level (index 0 = L1) |
-| `assets/raw_<track>.json` | Unlocks for a track: `{ level, name, img? }[]`       |
+| File                      | Contents                                                  |
+| ------------------------- | --------------------------------------------------------- |
+| `static/data/levels.json` | Cumulative XP curve (`xp[i]` = XP to reach level `i + 1`) |
+| `static/data/season.json` | Season name, start and approximate end                    |
+| `static/data/tracks.json` | Per-track, per-level grouped unlocks                      |
+| `static/data/items.json`  | Deduplicated item index (`item → where it unlocks`)       |
+| `static/data/index.json`  | Everything combined; the only file the app fetches        |
 
-The script downloads every referenced image and writes processed data to `static/`:
+Item icons live in [`static/icons/`](static/icons/). Items without an icon (currently the
+`MusicTape` items) fall back to `icons/placeholder.svg`.
 
-| Generated output          | Contents                                             |
-| ------------------------- | ---------------------------------------------------- |
-| `static/icons/*.webp`     | Item icons (plus `placeholder.svg` for missing ones) |
-| `static/data/levels.json` | Level curve                                          |
-| `static/data/season.json` | Season name, start and approximate end               |
-| `static/data/tracks.json` | Per-track, per-level grouped unlocks                 |
-| `static/data/items.json`  | Deduplicated item index (`item → where it unlocks`)  |
-| `static/data/index.json`  | Everything combined; fetched by the app once         |
-
-Regenerate the assets (only downloads images that are missing):
-
-```sh
-npm run data:build
-```
-
-Options:
-
-```sh
-node scripts/build-data.mjs --force        # re-download every image
-node scripts/build-data.mjs --no-download  # regenerate JSON only
-```
-
-The generated assets are committed, so a normal `npm run build` needs no network
-access.
+To start a new season, replace the data above with the new XP curve and unlock tables and
+add any new icons. Keep `index.json` in sync with the split files — the app reads only
+`index.json`. All of it is committed, so a normal `npm run build` needs no network access.
 
 ## Project structure
 
 ```
-assets/                     Raw, hand-maintained data
-scripts/build-data.mjs      Raw assets -> static assets + JSON
 static/
-  data/                     Generated JSON consumed by the app
-  icons/                    Downloaded item icons
+  data/                     Committed tracker data (see "Data")
+  icons/                    Item icons
 src/
   lib/
     components/             UI components
     clock.svelte.ts         Shared ticking clock for estimates
-    data.ts                 Fetches the generated data bundle
+    data.ts                 Fetches the tracker data bundle
     estimation.ts           Level + estimate math
     format.ts               Number/date/duration formatting
     progress.svelte.ts      localStorage-backed XP store
@@ -156,6 +138,6 @@ BASE_PATH=/wardogs-tracker npm run build
 
 ## Data provenance
 
-The raw unlock data and item icons originate from the Wardogs game assets
-(`static.metaforge.app`). They are included here for a community progression tracker;
-all rights remain with the game's owners.
+The unlock data and item icons originate from the Wardogs game assets (via MetaForge,
+`static.metaforge.app`); the original assets belong to Bulkhead. They are included here
+for a community progression tracker; all rights remain with the game's owners.
