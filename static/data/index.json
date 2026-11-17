@@ -1,0 +1,7531 @@
+{
+	"season": {
+		"name": "Season 3",
+		"start": "2026-11-12T14:00:00.000Z",
+		"end": "2027-02-10T14:00:00.000Z",
+		"durationDays": 90
+	},
+	"levels": {
+		"maxLevel": 100,
+		"xp": [
+			200,
+			750,
+			1250,
+			3000,
+			6250,
+			9250,
+			13000,
+			17250,
+			22500,
+			36750,
+			49000,
+			62250,
+			76500,
+			91250,
+			118250,
+			142500,
+			172000,
+			200750,
+			235250,
+			275000,
+			299000,
+			326750,
+			353750,
+			384500,
+			419750,
+			454750,
+			493750,
+			530750,
+			570250,
+			625000,
+			693000,
+			777000,
+			869000,
+			975000,
+			1125000,
+			1168500,
+			1216000,
+			1262000,
+			1311500,
+			1365000,
+			1415500,
+			1470000,
+			1523000,
+			1580000,
+			1643500,
+			1700000,
+			1760000,
+			1818500,
+			1881000,
+			1950000,
+			1995000,
+			2042500,
+			2089000,
+			2138500,
+			2193000,
+			2240500,
+			2290500,
+			2340000,
+			2391500,
+			2449500,
+			2499500,
+			2552500,
+			2604000,
+			2659000,
+			2720500,
+			2774000,
+			2830000,
+			2885000,
+			2943000,
+			3008500,
+			3065000,
+			3124500,
+			3182500,
+			3244500,
+			3320500,
+			3394000,
+			3481500,
+			3565500,
+			3659500,
+			3765500,
+			3856000,
+			3955000,
+			4051500,
+			4157500,
+			4289500,
+			4397500,
+			4514000,
+			4627000,
+			4750000,
+			4907500,
+			5038000,
+			5178500,
+			5315500,
+			5464000,
+			5655000,
+			5816500,
+			5990000,
+			6159000,
+			6341000,
+			6600000
+		]
+	},
+	"tracks": [
+		{
+			"id": "assault",
+			"name": "Assault",
+			"kind": "skill",
+			"maxLevel": 100,
+			"unlockLevels": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				45,
+				46,
+				48,
+				50
+			],
+			"levels": [
+				{
+					"level": 2,
+					"items": [
+						{
+							"id": "birdcage-flash-hider",
+							"name": "Birdcage Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_039.webp"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"items": [
+						{
+							"id": "stanag-30-rnd-magazine",
+							"name": "STANAG 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_stanag.webp"
+						},
+						{
+							"id": "t-21",
+							"name": "T-21",
+							"img": "icons/t_ui_vendor_wepn_005.webp"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"items": [
+						{
+							"id": "c4-charge",
+							"name": "C4 Charge",
+							"img": "icons/t_ui_item_c4_bc.webp"
+						},
+						{
+							"id": "remote-detonator",
+							"name": "Remote Detonator",
+							"img": "icons/t_ui_icon_c4_trigger.webp"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"items": [
+						{
+							"id": "5-45mm-flesh-damage-hp-t",
+							"name": "5.45mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_45x39_hp.webp"
+						},
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"items": [
+						{
+							"id": "3-prong-flash-hider",
+							"name": "3 Prong Flash Hider",
+							"img": "icons/t_ui_vendor_mzl_013.webp"
+						},
+						{
+							"id": "hexagon-brake",
+							"name": "Hexagon Brake",
+							"img": "icons/t_ui_vendor_muzl_024.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						},
+						{
+							"id": "molotov-cocktail",
+							"name": "Molotov Cocktail",
+							"img": "icons/t_ui_utility_molotov.webp"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"items": [
+						{
+							"id": "5-56mm-flesh-damage-hp-t",
+							"name": "5.56mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "galil",
+							"name": "Galil",
+							"img": "icons/t_ui_vendor_wepn_029.webp"
+						},
+						{
+							"id": "galil-35-rnd-magazine",
+							"name": "Galil 35 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_005.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "cq-2x-prism-combat-scope",
+							"name": "CQ-2x Prism Combat Scope",
+							"img": "icons/t_ui_vendor_sght_028.webp"
+						},
+						{
+							"id": "rubberized-ergonomic-foregrip",
+							"name": "Rubberized Ergonomic Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_015.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "cqr-tactical-front-rail-grip",
+							"name": "CQR Tactical Front Rail Grip",
+							"img": "icons/t_ui_vendor_fgrp_014.webp"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						}
+					]
+				},
+				{
+					"level": 16,
+					"items": [
+						{
+							"id": "galil-50-rnd-magazine",
+							"name": "Galil 50 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_060.webp"
+						}
+					]
+				},
+				{
+					"level": 17,
+					"items": [
+						{
+							"id": "2-5x-combat-optic",
+							"name": "2.5x Combat Optic",
+							"img": "icons/t_ui_vendor_sght_008.webp"
+						},
+						{
+							"id": "cqb-74-brake",
+							"name": "CQB 74 Brake",
+							"img": "icons/t_ui_vendor_muzl_015.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						},
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "pbs-4-suppressor",
+							"name": "PBS-4 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_009.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "tcx-spr",
+							"name": "TCX-SPR",
+							"img": "icons/t_ui_weapons_wepn_037.webp"
+						},
+						{
+							"id": "tcx-spr-28-rnd-magazine",
+							"name": "TCX-SPR 28 RND Magazine",
+							"img": "icons/t_ui_weapons_magz_069.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "7-62mm-flesh-damage-hp-t",
+							"name": "7.62mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_hp.webp"
+						},
+						{
+							"id": "topcomp-brake",
+							"name": "TopComp Brake",
+							"img": "icons/t_ui_vendor_muzl_014.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "clutch-lok-muzzle-brake",
+							"name": "Clutch Lok Muzzle Brake",
+							"img": "icons/t_ui_weapons_muzl_068.webp"
+						},
+						{
+							"id": "four-reticle-reflex",
+							"name": "Four Reticle Reflex",
+							"img": "icons/t_ui_vendor_sght_016.webp"
+						}
+					]
+				},
+				{
+					"level": 23,
+					"items": [
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 24,
+					"items": [
+						{
+							"id": "rc-556-suppressor",
+							"name": "RC-556 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_032.webp"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "ak74-60-rnd-magazine",
+							"name": "AK74 60 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_016.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "okp-7-reflex",
+							"name": "OKP 7 Reflex",
+							"img": "icons/t_ui_vendor_sght_023.webp"
+						}
+					]
+				},
+				{
+					"level": 27,
+					"items": [
+						{
+							"id": "5-45mm-armor-piercing-ap-t",
+							"name": "5.45mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_45x39_ap.webp"
+						},
+						{
+							"id": "tgp-a-suppressor-5-45",
+							"name": "TGP-A Suppressor 5.45",
+							"img": "icons/t_ui_vendor_muzl_010.webp"
+						}
+					]
+				},
+				{
+					"level": 28,
+					"items": [
+						{
+							"id": "m4",
+							"name": "M4",
+							"img": "icons/t_ui_vendor_wepn_002.webp"
+						}
+					]
+				},
+				{
+					"level": 29,
+					"items": [
+						{
+							"id": "ar-multi-caliber-suppressor",
+							"name": "AR Multi-Caliber Suppressor",
+							"img": "icons/t_ui_vendor_muzl_007.webp"
+						},
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "stanag-60-rnd-magazine",
+							"name": "STANAG 60 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_054.webp"
+						}
+					]
+				},
+				{
+					"level": 31,
+					"items": [
+						{
+							"id": "5-56mm-armor-piercing-ap-t",
+							"name": "5.56mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_ap.webp"
+						},
+						{
+							"id": "cross-rifle-muzzle-brake",
+							"name": "Cross Rifle Muzzle Brake",
+							"img": "icons/t_ui_weapons_muzl_067.webp"
+						}
+					]
+				},
+				{
+					"level": 32,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 33,
+					"items": [
+						{
+							"id": "3x-tactical-prism-scope",
+							"name": "3x Tactical Prism Scope",
+							"img": "icons/t_ui_vendor_sght_029.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "fal",
+							"name": "FAL",
+							"img": "icons/t_ui_vendor_wepn_030.webp"
+						},
+						{
+							"id": "fal-20-rnd-magazine",
+							"name": "FAL 20 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_006.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "ak74-75-rnd-drum-magazine",
+							"name": "AK74 75 RND Drum Magazine",
+							"img": "icons/t_ui_vendor_magz_015.webp"
+						}
+					]
+				},
+				{
+					"level": 37,
+					"items": [
+						{
+							"id": "308-win-flesh-damage-hp-t",
+							"name": ".308 Win Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 38,
+					"items": [
+						{
+							"id": "rvg-vertical-foregrip",
+							"name": "RVG Vertical Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_006.webp"
+						}
+					]
+				},
+				{
+					"level": 39,
+					"items": [
+						{
+							"id": "7-62mm-armor-piercing-ap-t",
+							"name": "7.62mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 40,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				},
+				{
+					"level": 41,
+					"items": [
+						{
+							"id": "308-win-armor-piercing-ap-t",
+							"name": ".308 Win Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 42,
+					"items": [
+						{
+							"id": "srd762ti-qd",
+							"name": "SRD762TI-QD",
+							"img": "icons/t_ui_weapons_muzl_069.webp"
+						}
+					]
+				},
+				{
+					"level": 43,
+					"items": [
+						{
+							"id": "spectr-4x",
+							"name": "Spectr 4x",
+							"img": "icons/t_ui_vendor_sght_001.webp"
+						}
+					]
+				},
+				{
+					"level": 45,
+					"items": [
+						{
+							"id": "3-chamber-brake",
+							"name": "3-Chamber Brake",
+							"img": "icons/t_ui_vendor_muzl_027.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "shift-foregrip",
+							"name": "Shift Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_007.webp"
+						}
+					]
+				},
+				{
+					"level": 48,
+					"items": [
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "fal-30-rnd-magazine",
+							"name": "FAL 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_024.webp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "medic",
+			"name": "Medic",
+			"kind": "skill",
+			"maxLevel": 100,
+			"unlockLevels": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				33,
+				35,
+				36,
+				37,
+				40,
+				41,
+				42,
+				44,
+				45,
+				46,
+				48,
+				50
+			],
+			"levels": [
+				{
+					"level": 1,
+					"items": [
+						{
+							"id": "eclipse-flash-hider",
+							"name": "Eclipse Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_037.webp"
+						}
+					]
+				},
+				{
+					"level": 2,
+					"items": [
+						{
+							"id": "field-resuscitator",
+							"name": "Field Resuscitator",
+							"img": "icons/t_ui_icon_enox_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"items": [
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"items": [
+						{
+							"id": "mp5",
+							"name": "MP5",
+							"img": "icons/t_ui_vendor_wepn_028.webp"
+						},
+						{
+							"id": "mp5-20-rnd-magazine",
+							"name": "MP5 20 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_064.webp"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"items": [
+						{
+							"id": "m18-smoke-grenade-white",
+							"name": "M18 Smoke Grenade: White",
+							"img": "icons/t_ui_icon_utility_smoke_textured_512x512_temp.webp"
+						},
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"items": [
+						{
+							"id": "holographic-sight",
+							"name": "Holographic Sight",
+							"img": "icons/t_ui_vendor_sght_005.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "9mm-flesh-damage-hp-t",
+							"name": "9mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_9x19mm_hp.webp"
+						},
+						{
+							"id": "mp5-30-rnd-magazine",
+							"name": "MP5 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_004.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "individual-first-aid-kit",
+							"name": "Individual First Aid Kit",
+							"img": "icons/t_ui_icon_utility_superbandage_textured_128x128.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "afg-angled-foregrip",
+							"name": "AFG Angled Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_003.webp"
+						},
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "ballista-brake",
+							"name": "Ballista Brake",
+							"img": "icons/t_ui_vendor_muzl_020.webp"
+						},
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "qd-5-suppressor",
+							"name": "QD-5 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_058.webp"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						},
+						{
+							"id": "medical-bag",
+							"name": "Medical Bag",
+							"img": "icons/t_ui_icon_medkit_128x128.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "pp-19-vityaz",
+							"name": "PP-19 Vityaz",
+							"img": "icons/t_ui_vendor_wepn_023.webp"
+						},
+						{
+							"id": "pp-19-vityaz-30-rnd-magazine",
+							"name": "PP-19 Vityaz 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_pp19.webp"
+						}
+					]
+				},
+				{
+					"level": 16,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 17,
+					"items": [
+						{
+							"id": "adrenaline-pen",
+							"name": "Adrenaline Pen",
+							"img": "icons/t_ui_item_stim_bc.webp"
+						},
+						{
+							"id": "pp-19-vityaz-10-rnd-magazine",
+							"name": "PP-19 Vityaz 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_059.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "pp-19-vityaz-flash-hider",
+							"name": "PP-19 Vityaz Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_054.webp"
+						},
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "vektor-frenix-x-micro-reflex-sight",
+							"name": "Vektor Frenix-X Micro Reflex Sight",
+							"img": "icons/t_ui_vendor_sght_027.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "amp-9",
+							"name": "AMP-9",
+							"img": "icons/t_ui_vendor_wepn_014.webp"
+						},
+						{
+							"id": "amp-9-15-rnd-magazine",
+							"name": "AMP-9 15 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_061.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "pp-19-50-rnd-vityaz-drum-magazine",
+							"name": "PP-19 50 RND Vityaz Drum Magazine",
+							"img": "icons/t_ui_vendor_magz_046.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "defibrillator",
+							"name": "Defibrillator",
+							"img": "icons/t_ui_icon_utility_defib_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 23,
+					"items": [
+						{
+							"id": "m18-smoke-grenade-black",
+							"name": "M18 Smoke Grenade: Black",
+							"img": "icons/t_ui_icon_utility_smoke_textured_black_512x512.webp"
+						},
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 24,
+					"items": [
+						{
+							"id": "pp-19-01-vityaz-9x19-suppressor",
+							"name": "PP-19-01 Vityaz 9x19 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_053.webp"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "amp-9-20-rnd-magazine",
+							"name": "AMP-9 20 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_052.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "amp-9-tactical-flash-hider",
+							"name": "AMP-9 Tactical Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_052.webp"
+						}
+					]
+				},
+				{
+					"level": 27,
+					"items": [
+						{
+							"id": "amp-9-9x19-suppressor",
+							"name": "AMP-9 9x19 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_051.webp"
+						}
+					]
+				},
+				{
+					"level": 28,
+					"items": [
+						{
+							"id": "dual-port-brake",
+							"name": "Dual Port Brake",
+							"img": "icons/t_ui_vendor_muzl_019.webp"
+						}
+					]
+				},
+				{
+					"level": 29,
+					"items": [
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						},
+						{
+							"id": "mp5-50-rnd-drum-magazine",
+							"name": "MP5 50 RND Drum Magazine",
+							"img": "icons/t_ui_vendor_magz_056.webp"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "amp-9-30-rnd-magazine",
+							"name": "AMP-9 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_043.webp"
+						}
+					]
+				},
+				{
+					"level": 33,
+					"items": [
+						{
+							"id": "9mm-armor-piercing-ap-t",
+							"name": "9mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_9x19mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "super-45",
+							"name": "Super-45",
+							"img": "icons/t_ui_vendor_wepn_006.webp"
+						},
+						{
+							"id": "super-45-13-rnd-magazine",
+							"name": "Super-45 13 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_057.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 37,
+					"items": [
+						{
+							"id": "45-acp-flesh-damage-hp-t",
+							"name": ".45 ACP Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_45acp_hp.webp"
+						},
+						{
+							"id": "super-45-flash-hider",
+							"name": "Super-45 Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_046.webp"
+						}
+					]
+				},
+				{
+					"level": 40,
+					"items": [
+						{
+							"id": "ghost-lite-muzzle-brake",
+							"name": "Ghost LITE Muzzle Brake",
+							"img": "icons/t_ui_vendor_muzl_047.webp"
+						}
+					]
+				},
+				{
+					"level": 41,
+					"items": [
+						{
+							"id": "45-acp-armor-piercing-ap-t",
+							"name": ".45 ACP Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_45acp_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 42,
+					"items": [
+						{
+							"id": "super-45-30-rnd-magazine",
+							"name": "Super-45 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_vector.webp"
+						}
+					]
+				},
+				{
+					"level": 44,
+					"items": [
+						{
+							"id": "amp-9-50-rnd-drum-magazine",
+							"name": "AMP-9 50 RND Drum Magazine",
+							"img": "icons/t_ui_vendor_magz_066.webp"
+						}
+					]
+				},
+				{
+					"level": 45,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "sg-multi-caliber-suppressor",
+							"name": "SG Multi-Caliber Suppressor",
+							"img": "icons/t_ui_vendor_muzl_005.webp"
+						}
+					]
+				},
+				{
+					"level": 48,
+					"items": [
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "super-45-40-rnd-drum-magazine",
+							"name": "Super-45 40 RND Drum Magazine",
+							"img": "icons/t_ui_vendor_magz_055.webp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "support",
+			"name": "Support",
+			"kind": "skill",
+			"maxLevel": 100,
+			"unlockLevels": [
+				1,
+				2,
+				3,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				35,
+				36,
+				37,
+				40,
+				41,
+				43,
+				45,
+				46,
+				50
+			],
+			"levels": [
+				{
+					"level": 1,
+					"items": [
+						{
+							"id": "light-drill",
+							"name": "Light Drill",
+							"img": "icons/t_ui_icon_drill_medium.webp"
+						}
+					]
+				},
+				{
+					"level": 2,
+					"items": [
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"items": [
+						{
+							"id": "medium-hammer",
+							"name": "Medium Hammer",
+							"img": "icons/t_ui_item_hammer_2_bc.webp"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"items": [
+						{
+							"id": "rpg-7",
+							"name": "RPG-7",
+							"img": "icons/t_ui_vendor_wepn_022.webp"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"items": [
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "9k333-verba",
+							"name": "9K333 Verba",
+							"img": "icons/t_ui_vendor_wepn_025.webp"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"items": [
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "m500",
+							"name": "M500",
+							"img": "icons/t_ui_vendor_wepn_011.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "m500-sabre-brake",
+							"name": "M500 Sabre Brake",
+							"img": "icons/t_ui_vendor_muzl_031.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						},
+						{
+							"id": "pgo-7",
+							"name": "PGO-7",
+							"img": "icons/t_ui_vendor_sght_034.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "12g-rifled-slug",
+							"name": "12g Rifled Slug",
+							"img": "icons/t_ui_icon_ammobox_12g_slug_green.webp"
+						},
+						{
+							"id": "improved-cylinder-choke",
+							"name": "Improved Cylinder Choke",
+							"img": "icons/t_ui_vendor_muzl_044.webp"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "large-hammer",
+							"name": "Large Hammer",
+							"img": "icons/t_ui_vendor_build3.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "pkm",
+							"name": "PKM",
+							"img": "icons/t_ui_vendor_wepn_019.webp"
+						},
+						{
+							"id": "pkm-100-rnd-box",
+							"name": "PKM 100 RND Box",
+							"img": "icons/t_ui_vendor_magz_lmg.webp"
+						}
+					]
+				},
+				{
+					"level": 16,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 17,
+					"items": [
+						{
+							"id": "full-choke",
+							"name": "Full Choke",
+							"img": "icons/t_ui_vendor_muzl_045.webp"
+						},
+						{
+							"id": "pkm-bipod",
+							"name": "PKM Bipod",
+							"img": "icons/t_ui_vendor_fgrp_008.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "maaws",
+							"name": "MAAWS",
+							"img": "icons/t_ui_vendor_wepn_013.webp"
+						},
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "7-62x54mm-flesh-damage-hp-t",
+							"name": "7.62x54mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_hp.webp"
+						},
+						{
+							"id": "slotted-flash-hider",
+							"name": "Slotted Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_038.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "m249-100-rnd-fabric-magazine",
+							"name": "M249 100 RND Fabric Magazine",
+							"img": "icons/t_ui_vendor_magz_062.webp"
+						},
+						{
+							"id": "m249-saw",
+							"name": "M249 SAW",
+							"img": "icons/t_ui_vendor_wepn_009.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						},
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "4x-combat-prism-scope-with-reflex",
+							"name": "4x Combat Prism Scope with Reflex",
+							"img": "icons/t_ui_vendor_sght_030.webp"
+						}
+					]
+				},
+				{
+					"level": 23,
+					"items": [
+						{
+							"id": "m249-bipod",
+							"name": "M249 Bipod",
+							"img": "icons/t_ui_vendor_fgrp_008.webp"
+						}
+					]
+				},
+				{
+					"level": 24,
+					"items": [
+						{
+							"id": "5-56mm-flesh-damage-hp-t",
+							"name": "5.56mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "at-mine",
+							"name": "AT Mine",
+							"img": "icons/t_ui_item_mine_bc.webp"
+						},
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "m249-200-rnd-box",
+							"name": "M249 200 RND Box",
+							"img": "icons/t_ui_vendor_magz_038.webp"
+						}
+					]
+				},
+				{
+					"level": 27,
+					"items": [
+						{
+							"id": "tread-brake",
+							"name": "Tread Brake",
+							"img": "icons/t_ui_vendor_muzl_023.webp"
+						}
+					]
+				},
+				{
+					"level": 28,
+					"items": [
+						{
+							"id": "heavy-drill",
+							"name": "Heavy Drill",
+							"img": "icons/t_ui_icon_drill_heavy.webp"
+						}
+					]
+				},
+				{
+					"level": 29,
+					"items": [
+						{
+							"id": "5-56mm-armor-piercing-ap-t",
+							"name": "5.56mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "evo-3-ultra",
+							"name": "Evo-3 Ultra",
+							"img": "icons/t_ui_weapons_wepn_036.webp"
+						},
+						{
+							"id": "evo-3-ultra-50-rnd-box",
+							"name": "Evo-3 Ultra 50 RND Box",
+							"img": "icons/t_ui_weapons_magz_067.webp"
+						}
+					]
+				},
+				{
+					"level": 31,
+					"items": [
+						{
+							"id": "308-win-flesh-damage-hp-t",
+							"name": ".308 Win Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 32,
+					"items": [
+						{
+							"id": "12-gauge-suppressor",
+							"name": "12 Gauge Suppressor",
+							"img": "icons/t_ui_vendor_muzl_006.webp"
+						}
+					]
+				},
+				{
+					"level": 33,
+					"items": [
+						{
+							"id": "evo-3-ultra-bipod",
+							"name": "Evo-3 Ultra Bipod",
+							"img": "icons/t_ui_weapons_fgrp_019.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "40mm",
+							"name": "40mm",
+							"img": "icons/t_ui_icon_attachment_40mm_round_textured_512x512.webp"
+						},
+						{
+							"id": "mgl-40",
+							"name": "MGL-40",
+							"img": "icons/t_ui_vendor_wepn_012.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 37,
+					"items": [
+						{
+							"id": "7-62x54mm-armor-piercing-ap-t",
+							"name": "7.62x54mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 40,
+					"items": [
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 41,
+					"items": [
+						{
+							"id": "308-win-armor-piercing-ap-t",
+							"name": ".308 Win Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 43,
+					"items": [
+						{
+							"id": "sl7i-bl-suppressor",
+							"name": "SL7i-BL Suppressor",
+							"img": "icons/t_ui_vendor_muzl_058.webp"
+						}
+					]
+				},
+				{
+					"level": 45,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "orpheus-max-brake",
+							"name": "Orpheus Max Brake",
+							"img": "icons/t_ui_vendor_muzl_029.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "hybrid-grip-pod",
+							"name": "Hybrid Grip Pod",
+							"img": "icons/t_ui_vendor_fgrp_004.webp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "recon",
+			"name": "Recon",
+			"kind": "skill",
+			"maxLevel": 100,
+			"unlockLevels": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
+			],
+			"levels": [
+				{
+					"level": 2,
+					"items": [
+						{
+							"id": "monocular",
+							"name": "Monocular",
+							"img": "icons/t_ui_vendor_monocle_temp.webp"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"items": [
+						{
+							"id": "strelix-suppressor",
+							"name": "STRELIX Suppressor",
+							"img": "icons/t_ui_vendor_muzl_062.webp"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"items": [
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"items": [
+						{
+							"id": "sks",
+							"name": "SKS",
+							"img": "icons/t_ui_vendor_wepn_007.webp"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"items": [
+						{
+							"id": "5-56mm-flesh-damage-hp-t",
+							"name": "5.56mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_hp.webp"
+						},
+						{
+							"id": "sks-bipod",
+							"name": "SKS Bipod",
+							"img": "icons/t_ui_vendor_fgrp_008.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "deadeye-flash-hider",
+							"name": "Deadeye Flash Hider",
+							"img": "icons/t_ui_muzl_037.webp"
+						},
+						{
+							"id": "range-finder",
+							"name": "Range Finder",
+							"img": "icons/t_ui_icon_rangefinder_1.webp"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"items": [
+						{
+							"id": "dtk-1-brake",
+							"name": "DTK-1 Brake",
+							"img": "icons/t_ui_vendor_muzl_028.webp"
+						},
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "mosin-nagant",
+							"name": "Mosin Nagant",
+							"img": "icons/t_ui_vendor_wepn_017.webp"
+						},
+						{
+							"id": "pu-91-30-scope",
+							"name": "PU 91/30 Scope",
+							"img": "icons/t_ui_vendor_sght_040.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "3x-6x-lpvo-short-dot",
+							"name": "3x-6x LPVO Short Dot",
+							"img": "icons/t_ui_vendor_sght_011.webp"
+						},
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "svd",
+							"name": "SVD",
+							"img": "icons/t_ui_vendor_wepn_015.webp"
+						},
+						{
+							"id": "svd-5-rnd-magazine",
+							"name": "SVD 5 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_svdm.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "7-62mm-flesh-damage-hp-t",
+							"name": "7.62mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_hp.webp"
+						},
+						{
+							"id": "svd-7-62x54r-brake",
+							"name": "SVD 7.62x54R Brake",
+							"img": "icons/t_ui_vendor_muzl_040.webp"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "hexagon-762-suppressor",
+							"name": "Hexagon 762 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_008.webp"
+						},
+						{
+							"id": "svd-bipod",
+							"name": "SVD Bipod",
+							"img": "icons/t_ui_vendor_fgrp_008.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						},
+						{
+							"id": "compound-bow",
+							"name": "Compound Bow",
+							"img": "icons/t_ui_weapon_bow_bc.webp"
+						}
+					]
+				},
+				{
+					"level": 16,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 17,
+					"items": [
+						{
+							"id": "7-62x54mm-flesh-damage-hp-t",
+							"name": "7.62x54mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_hp.webp"
+						},
+						{
+							"id": "svd-10-rnd-magazine",
+							"name": "SVD 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_svdm.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "sv98",
+							"name": "SV98",
+							"img": "icons/t_ui_vendor_wepn_008.webp"
+						},
+						{
+							"id": "sv98-10-rnd-magazine",
+							"name": "SV98 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_010.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "6-10x-scope-moa",
+							"name": "6-10x Scope MOA",
+							"img": "icons/t_ui_icon_attachment_10x_optic_textured_512x512.webp"
+						},
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "bmr-308",
+							"name": "BMR-308",
+							"img": "icons/t_ui_weapon_rfb_bc.webp"
+						},
+						{
+							"id": "fal-10-rnd-magazine",
+							"name": "FAL 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_rfb.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "sv98-bipod",
+							"name": "SV98 Bipod",
+							"img": "icons/t_ui_vendor_fgrp_009.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						},
+						{
+							"id": "srvv-brake",
+							"name": "SRVV Brake",
+							"img": "icons/t_ui_vendor_muzl_041.webp"
+						}
+					]
+				},
+				{
+					"level": 23,
+					"items": [
+						{
+							"id": "claymore",
+							"name": "Claymore",
+							"img": "icons/t_ui_icon_claymore_512x512.webp"
+						},
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 24,
+					"items": [
+						{
+							"id": "bmr-308-flash-hider",
+							"name": "BMR-308 Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_055.webp"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "m14",
+							"name": "M14",
+							"img": "icons/t_ui_weapons_wepn_034.webp"
+						},
+						{
+							"id": "m14-10-rnd-magazine",
+							"name": "M14 10 RND Magazine",
+							"img": "icons/t_ui_weapons_magz_068.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "ghillie-body-suit",
+							"name": "Ghillie Body Suit",
+							"img": "icons/t_ui_icon_ghillie_body_bc.webp"
+						},
+						{
+							"id": "ghillie-headwear",
+							"name": "Ghillie Headwear",
+							"img": "icons/t_ui_icon_ghillie_helmet_bc.webp"
+						}
+					]
+				},
+				{
+					"level": 27,
+					"items": [
+						{
+							"id": "5-56mm-armor-piercing-ap-t",
+							"name": "5.56mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_ap.webp"
+						},
+						{
+							"id": "leatherwood-art-ii",
+							"name": "Leatherwood ART II",
+							"img": "icons/t_ui_vendor_sght_039.webp"
+						}
+					]
+				},
+				{
+					"level": 28,
+					"items": [
+						{
+							"id": "6-10x-scope-mrad",
+							"name": "6-10x Scope MRAD",
+							"img": "icons/t_ui_icon_attachment_10x_optic_textured_512x512.webp"
+						},
+						{
+							"id": "7-62mm-armor-piercing-ap-t",
+							"name": "7.62mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 29,
+					"items": [
+						{
+							"id": "m14-bipod",
+							"name": "M14 Bipod",
+							"img": "icons/t_ui_vendor_frgp_020.webp"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "mk22",
+							"name": "MK22",
+							"img": "icons/t_ui_vendor_wepn_018.webp"
+						},
+						{
+							"id": "mk22-5-rnd-magazine",
+							"name": "MK22 5 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_034.webp"
+						}
+					]
+				},
+				{
+					"level": 31,
+					"items": [
+						{
+							"id": "308-win-flesh-damage-hp-t",
+							"name": ".308 Win Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp"
+						},
+						{
+							"id": "m14-20-rnd-magazine",
+							"name": "M14 20 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_071.webp"
+						}
+					]
+				},
+				{
+					"level": 32,
+					"items": [
+						{
+							"id": "m14-30-rnd-magazine",
+							"name": "M14 30 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_070.webp"
+						}
+					]
+				},
+				{
+					"level": 33,
+					"items": [
+						{
+							"id": "bmr-308-suppressor",
+							"name": "BMR-308 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_056.webp"
+						},
+						{
+							"id": "constrictor-brake",
+							"name": "Constrictor Brake",
+							"img": "icons/t_ui_vendor_muzl_022.webp"
+						}
+					]
+				},
+				{
+					"level": 34,
+					"items": [
+						{
+							"id": "7-62x54mm-armor-piercing-ap-t",
+							"name": "7.62x54mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_ap.webp"
+						},
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "308-win-armor-piercing-ap-t",
+							"name": ".308 Win Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 37,
+					"items": [
+						{
+							"id": "30-cal-ss-phosphate-muzzle-brake",
+							"name": ".30 Cal SS Phosphate Muzzle Brake",
+							"img": "icons/t_ui_vendor_muzl_071.webp"
+						}
+					]
+				},
+				{
+					"level": 39,
+					"items": [
+						{
+							"id": "mk22-10-rnd-magazine",
+							"name": "MK22 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_mk22.webp"
+						}
+					]
+				},
+				{
+					"level": 40,
+					"items": [
+						{
+							"id": "flow-through-308-suppressor",
+							"name": "Flow-Through .308 Suppressor",
+							"img": "icons/t_ui_vendor_muzl_057.webp"
+						}
+					]
+				},
+				{
+					"level": 41,
+					"items": [
+						{
+							"id": "amr-50",
+							"name": "AMR 50",
+							"img": "icons/t_ui_vendor_wepn_024.webp"
+						},
+						{
+							"id": "amr-50-5-rnd-magazine",
+							"name": "AMR 50 5 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_sr04.webp"
+						}
+					]
+				},
+				{
+					"level": 42,
+					"items": [
+						{
+							"id": "30-cal-steel-black-flash-hider",
+							"name": ".30 Cal Steel Black Flash Hider",
+							"img": "icons/t_ui_vendor_muzl_072.webp"
+						},
+						{
+							"id": "amr-50-cal-muzzle-brake",
+							"name": "AMR 50 Cal Muzzle Brake",
+							"img": "icons/t_ui_vendor_muzl_048.webp"
+						}
+					]
+				},
+				{
+					"level": 43,
+					"items": [
+						{
+							"id": "6x-marksman-scope-reflex",
+							"name": "6x Marksman Scope + Reflex",
+							"img": "icons/t_ui_vendor_sght_036.webp"
+						},
+						{
+							"id": "slicktap-brake",
+							"name": "Slicktap Brake",
+							"img": "icons/t_ui_vendor_muzl_025.webp"
+						}
+					]
+				},
+				{
+					"level": 44,
+					"items": [
+						{
+							"id": "gol-multi-caliber-suppressor",
+							"name": "GOL Multi-Caliber Suppressor",
+							"img": "icons/t_ui_vendor_muzl_004.webp"
+						}
+					]
+				},
+				{
+					"level": 45,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "pro-tilt-bipod",
+							"name": "Pro Tilt Bipod",
+							"img": "icons/t_ui_vendor_fgrp_009.webp"
+						}
+					]
+				},
+				{
+					"level": 47,
+					"items": [
+						{
+							"id": "frontier-2-5x-10x-precision-scope",
+							"name": "Frontier 2.5x-10x Precision Scope",
+							"img": "icons/t_ui_vendor_sght_032.webp"
+						}
+					]
+				},
+				{
+					"level": 48,
+					"items": [
+						{
+							"id": "50-cal-heavy-suppressor",
+							"name": ".50 Cal Heavy Suppressor",
+							"img": "icons/t_ui_vendor_muzl_049.webp"
+						},
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 49,
+					"items": [
+						{
+							"id": "amr-50-10-rnd-magazine",
+							"name": "AMR 50 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_026.webp"
+						},
+						{
+							"id": "three-port-brake",
+							"name": "Three Port Brake",
+							"img": "icons/t_ui_vendor_muzl_030.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "ghillie-body-suit-dead",
+							"name": "Ghillie Body Suit (Dead)",
+							"img": "icons/t_ui_vendor_ghilliebody__dead.webp"
+						},
+						{
+							"id": "ghillie-headwear-dead",
+							"name": "Ghillie Headwear (Dead)",
+							"img": "icons/t_ui_vendor_ghillie_dead.webp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "pilot",
+			"name": "Pilot",
+			"kind": "skill",
+			"maxLevel": 100,
+			"unlockLevels": [
+				2,
+				4,
+				5,
+				7,
+				8,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				25,
+				26,
+				30,
+				33,
+				34,
+				35,
+				36,
+				41,
+				46,
+				50
+			],
+			"levels": [
+				{
+					"level": 2,
+					"items": [
+						{
+							"id": "small-armored-crate",
+							"name": "Small Armored Crate",
+							"img": "icons/id_item_vehiclesupplycrate_small_armoured.webp"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"items": [
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"items": [
+						{
+							"id": "musictape-08",
+							"name": "MusicTape 08",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "ah-6m-miniguns",
+							"name": "AH-6M [Miniguns]",
+							"img": "icons/t_ui_vehicle_littlebird_guns_bc.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "z20-lakota",
+							"name": "Z20 Lakota",
+							"img": "icons/t_ui_vendoricon_rot_4.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "mechanical-supply-pallet",
+							"name": "Mechanical Supply Pallet",
+							"img": "icons/t_ui_supply_mech_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "musictape-01",
+							"name": "MusicTape 01",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "ammo-supply-pallet",
+							"name": "Ammo Supply Pallet",
+							"img": "icons/t_ui_supply_ammo_palette.webp"
+						},
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "large-crate",
+							"name": "Large Crate",
+							"img": "icons/id_item_vehiclesupplycrate_large.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "fuel-supply-pallet",
+							"name": "Fuel Supply Pallet",
+							"img": "icons/t_ui_supply_fuel_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "ah-6r-rockets",
+							"name": "AH-6R [Rockets]",
+							"img": "icons/t_ui_vendor_littlebird_3.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						},
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 23,
+					"items": [
+						{
+							"id": "musictape-09",
+							"name": "MusicTape 09",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "z20-lakota-miniguns",
+							"name": "Z20 Lakota [Miniguns]",
+							"img": "icons/t_ui_vendoricon_rot_4_minigun.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "308-win-flesh-damage-hp-t",
+							"name": ".308 Win Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp"
+						},
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "large-armored-crate",
+							"name": "Large Armored Crate",
+							"img": "icons/id_item_vehiclesupplycrate_large_armoured.webp"
+						}
+					]
+				},
+				{
+					"level": 33,
+					"items": [
+						{
+							"id": "musictape-04",
+							"name": "MusicTape 04",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 34,
+					"items": [
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "havoc",
+							"name": "Havoc",
+							"img": "icons/t_ui_vendor_havoc.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "308-win-armor-piercing-ap-t",
+							"name": ".308 Win Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 41,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "driver",
+			"name": "Driver",
+			"kind": "skill",
+			"maxLevel": 100,
+			"unlockLevels": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				35,
+				36,
+				38,
+				40,
+				41,
+				43,
+				45,
+				46,
+				48,
+				50
+			],
+			"levels": [
+				{
+					"level": 2,
+					"items": [
+						{
+							"id": "small-armored-crate",
+							"name": "Small Armored Crate",
+							"img": "icons/id_item_vehiclesupplycrate_small_armoured.webp"
+						}
+					]
+				},
+				{
+					"level": 3,
+					"items": [
+						{
+							"id": "ural",
+							"name": "URAL",
+							"img": "icons/t_ui_vehicle_ural.webp"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"items": [
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						},
+						{
+							"id": "mechanical-supply-pallet",
+							"name": "Mechanical Supply Pallet",
+							"img": "icons/t_ui_supply_mech_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 5,
+					"items": [
+						{
+							"id": "musictape-06",
+							"name": "MusicTape 06",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 6,
+					"items": [
+						{
+							"id": "kodiak-m249",
+							"name": "Kodiak [M249]",
+							"img": "icons/t_ui_vehicle_kodiak_machinegun.webp"
+						}
+					]
+				},
+				{
+					"level": 7,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "wolf-110",
+							"name": "Wolf-110",
+							"img": "icons/t_ui_vendor_whl_08.webp"
+						}
+					]
+				},
+				{
+					"level": 9,
+					"items": [
+						{
+							"id": "5-56mm-flesh-damage-hp-t",
+							"name": "5.56mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "kodiak-pickup",
+							"name": "Kodiak [Pickup]",
+							"img": "icons/t_ui_vehicle_kodiak_pickup.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "ammo-supply-pallet",
+							"name": "Ammo Supply Pallet",
+							"img": "icons/t_ui_supply_ammo_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "dune-buggy",
+							"name": "Dune Buggy",
+							"img": "icons/t_ui_icon_vehicle_dunebuggy_512x512.webp"
+						},
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "musictape-07",
+							"name": "MusicTape 07",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "humvee",
+							"name": "Humvee",
+							"img": "icons/t_ui_vehicle_transport_humvee_temp_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 16,
+					"items": [
+						{
+							"id": "ural-defender",
+							"name": "Ural Defender",
+							"img": "icons/t_ui_vendor_ural_2.webp"
+						}
+					]
+				},
+				{
+					"level": 17,
+					"items": [
+						{
+							"id": "wolf-110-m2-browning",
+							"name": "Wolf-110 [M2 Browning]",
+							"img": "icons/t_ui_vendor_whl_08_gun.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "large-crate",
+							"name": "Large Crate",
+							"img": "icons/id_item_vehiclesupplycrate_large.webp"
+						},
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "fuel-supply-pallet",
+							"name": "Fuel Supply Pallet",
+							"img": "icons/t_ui_supply_fuel_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "ural-defender-m249",
+							"name": "Ural Defender [M249]",
+							"img": "icons/t_ui_vendor_ural_3.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						},
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 23,
+					"items": [
+						{
+							"id": "musictape-02",
+							"name": "MusicTape 02",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 24,
+					"items": [
+						{
+							"id": "large-armored-crate",
+							"name": "Large Armored Crate",
+							"img": "icons/id_item_vehiclesupplycrate_large_armoured.webp"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "humvee-m249",
+							"name": "Humvee [M249]",
+							"img": "icons/t_ui_icon_vehicle_humvee_gun.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 28,
+					"items": [
+						{
+							"id": "musictape-03",
+							"name": "MusicTape 03",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 29,
+					"items": [
+						{
+							"id": "5-56mm-armor-piercing-ap-t",
+							"name": "5.56mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "humvee-minigun",
+							"name": "Humvee [Minigun]",
+							"img": "icons/t_ui_icon_vehicle_humvee_gun.webp"
+						}
+					]
+				},
+				{
+					"level": 31,
+					"items": [
+						{
+							"id": "308-win-flesh-damage-hp-t",
+							"name": ".308 Win Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 33,
+					"items": [
+						{
+							"id": "musictape-05",
+							"name": "MusicTape 05",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 34,
+					"items": [
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "t-72b3",
+							"name": "T-72B3",
+							"img": "icons/t_ui_vendor_tnk_04.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "7-62x54mm-flesh-damage-hp-t",
+							"name": "7.62x54mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 38,
+					"items": [
+						{
+							"id": "7-62x54mm-armor-piercing-ap-t",
+							"name": "7.62x54mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 40,
+					"items": [
+						{
+							"id": "sph-2",
+							"name": "SPH-2",
+							"img": "icons/t_ui_vehicle_pvtank_temp_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 41,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 43,
+					"items": [
+						{
+							"id": "308-win-armor-piercing-ap-t",
+							"name": ".308 Win Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 45,
+					"items": [
+						{
+							"id": "flakpanzer-gepard",
+							"name": "Flakpanzer Gepard",
+							"img": "icons/t_ui_vendor_gepard.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 48,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "l2a6",
+							"name": "L2A6",
+							"img": "icons/t_ui_icon_vehicle_hvy_tank_textured.webp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "wardog",
+			"name": "Wardog",
+			"kind": "overall",
+			"maxLevel": 200,
+			"unlockLevels": [
+				1,
+				4,
+				8,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				24,
+				25,
+				26,
+				28,
+				30,
+				31,
+				32,
+				34,
+				35,
+				36,
+				37,
+				39,
+				40,
+				43,
+				45,
+				46,
+				47,
+				49,
+				50,
+				53,
+				55,
+				60,
+				65,
+				68,
+				70,
+				75,
+				76,
+				80,
+				85,
+				90,
+				100,
+				110,
+				120,
+				130,
+				140,
+				145,
+				150,
+				155,
+				160,
+				165,
+				170,
+				180,
+				190,
+				200
+			],
+			"levels": [
+				{
+					"level": 1,
+					"items": [
+						{
+							"id": "judge",
+							"name": "Judge",
+							"img": "icons/t_ui_vendor_wepn_020.webp"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"items": [
+						{
+							"id": "kobra-reflex",
+							"name": "Kobra Reflex",
+							"img": "icons/t_ui_vendor_sght_009.webp"
+						}
+					]
+				},
+				{
+					"level": 8,
+					"items": [
+						{
+							"id": "level-1-armor",
+							"name": "Level 1 Armor",
+							"img": "icons/t_ui_vendor_armor_001a.webp"
+						},
+						{
+							"id": "level-1-helmet",
+							"name": "Level 1 Helmet",
+							"img": "icons/t_ui_vendor_helmet_001a.webp"
+						}
+					]
+				},
+				{
+					"level": 10,
+					"items": [
+						{
+							"id": "field-backpack",
+							"name": "Field Backpack",
+							"img": "icons/t_ui_vendor_backpack_005.webp"
+						}
+					]
+				},
+				{
+					"level": 11,
+					"items": [
+						{
+							"id": "5-45mm-flesh-damage-hp-t",
+							"name": "5.45mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_45x39_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 12,
+					"items": [
+						{
+							"id": "5-56mm-flesh-damage-hp-t",
+							"name": "5.56mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 13,
+					"items": [
+						{
+							"id": "9mm-flesh-damage-hp-t",
+							"name": "9mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_9x19mm_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 14,
+					"items": [
+						{
+							"id": "7-62mm-flesh-damage-hp-t",
+							"name": "7.62mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 15,
+					"items": [
+						{
+							"id": "medium-tac-vest",
+							"name": "Medium Tac Vest",
+							"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 16,
+					"items": [
+						{
+							"id": "mechanical-supply-pallet",
+							"name": "Mechanical Supply Pallet",
+							"img": "icons/t_ui_supply_mech_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 17,
+					"items": [
+						{
+							"id": "rk6-tactical-foregrip",
+							"name": "RK6 Tactical Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_001.webp"
+						}
+					]
+				},
+				{
+					"level": 18,
+					"items": [
+						{
+							"id": "compact-t-2-red-dot",
+							"name": "Compact T-2 Red Dot",
+							"img": "icons/t_ui_vendor_sght_013.webp"
+						}
+					]
+				},
+				{
+					"level": 19,
+					"items": [
+						{
+							"id": "45-colt-flesh-damage-hp-t",
+							"name": ".45 Colt Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_45colt_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 20,
+					"items": [
+						{
+							"id": "ggx-17",
+							"name": "GGX 17",
+							"img": "icons/t_ui_vendor_wepn_010.webp"
+						},
+						{
+							"id": "ggx-17-rnd-magazine",
+							"name": "GGX 17 RND Magazine",
+							"img": "icons/t_ui_icon_attachment_cheap_magazine_9mm_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 21,
+					"items": [
+						{
+							"id": "compact-p-1-red-dot",
+							"name": "Compact P-1 Red Dot",
+							"img": "icons/t_ui_weapons_sght_038.webp"
+						}
+					]
+				},
+				{
+					"level": 22,
+					"items": [
+						{
+							"id": "ggx-33-rnd-magazine",
+							"name": "GGX 33 RND Magazine",
+							"img": "icons/t_ui_magz_012.webp"
+						}
+					]
+				},
+				{
+					"level": 24,
+					"items": [
+						{
+							"id": "ammo-supply-pallet",
+							"name": "Ammo Supply Pallet",
+							"img": "icons/t_ui_supply_ammo_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 25,
+					"items": [
+						{
+							"id": "operator-backpack",
+							"name": "Operator Backpack",
+							"img": "icons/t_ui_icon_mediumbackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 26,
+					"items": [
+						{
+							"id": "tricon-1-5x-compact-prism-scope",
+							"name": "Tricon 1.5x Compact Prism Scope",
+							"img": "icons/t_ui_vendor_sght_026.webp"
+						}
+					]
+				},
+				{
+					"level": 28,
+					"items": [
+						{
+							"id": "musictape-11",
+							"name": "MusicTape 11",
+							"img": "icons/placeholder.svg"
+						}
+					]
+				},
+				{
+					"level": 30,
+					"items": [
+						{
+							"id": "fuel-supply-pallet",
+							"name": "Fuel Supply Pallet",
+							"img": "icons/t_ui_supply_fuel_palette.webp"
+						}
+					]
+				},
+				{
+					"level": 31,
+					"items": [
+						{
+							"id": "spitfire-3x",
+							"name": "Spitfire 3X",
+							"img": "icons/t_ui_vendor_sght_024.webp"
+						}
+					]
+				},
+				{
+					"level": 32,
+					"items": [
+						{
+							"id": "12g-rifled-slug",
+							"name": "12g Rifled Slug",
+							"img": "icons/t_ui_icon_ammobox_12g_slug_green.webp"
+						}
+					]
+				},
+				{
+					"level": 34,
+					"items": [
+						{
+							"id": "45-angled-foregrip",
+							"name": "45° Angled Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_016.webp"
+						}
+					]
+				},
+				{
+					"level": 35,
+					"items": [
+						{
+							"id": "gold-exchange",
+							"name": "Gold Exchange",
+							"img": "icons/t_ui_icon_goldmarket.webp"
+						}
+					]
+				},
+				{
+					"level": 36,
+					"items": [
+						{
+							"id": "mini-angled-foregrip",
+							"name": "Mini Angled Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_018.webp"
+						}
+					]
+				},
+				{
+					"level": 37,
+					"items": [
+						{
+							"id": "assault-backpack",
+							"name": "Assault Backpack",
+							"img": "icons/t_ui_vendor_backpack_008.webp"
+						}
+					]
+				},
+				{
+					"level": 39,
+					"items": [
+						{
+							"id": "7-62x54mm-flesh-damage-hp-t",
+							"name": "7.62x54mm Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 40,
+					"items": [
+						{
+							"id": "m1911",
+							"name": "M1911",
+							"img": "icons/t_ui_vendor_wepn_026.webp"
+						},
+						{
+							"id": "m1911-7-rnd-magazine",
+							"name": "M1911 7 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_002.webp"
+						}
+					]
+				},
+				{
+					"level": 43,
+					"items": [
+						{
+							"id": "45-acp-pistol-compensator",
+							"name": ".45 ACP Pistol Compensator",
+							"img": "icons/t_ui_vendor_muzl_050.webp"
+						}
+					]
+				},
+				{
+					"level": 45,
+					"items": [
+						{
+							"id": "sport-parachute",
+							"name": "Sport Parachute",
+							"img": "icons/t_ui_icon_parachute_sport.webp"
+						}
+					]
+				},
+				{
+					"level": 46,
+					"items": [
+						{
+							"id": "high-capacity-battery",
+							"name": "High Capacity Battery",
+							"img": "icons/t_ui_icon_drill_batterylarge.webp"
+						}
+					]
+				},
+				{
+					"level": 47,
+					"items": [
+						{
+							"id": "large-tac-vest",
+							"name": "Large Tac Vest",
+							"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 49,
+					"items": [
+						{
+							"id": "45-acp-flesh-damage-hp-t",
+							"name": ".45 ACP Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_45acp_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 50,
+					"items": [
+						{
+							"id": "level-2-armor",
+							"name": "Level 2 Armor",
+							"img": "icons/t_ui_vendor_armor_002a.webp"
+						},
+						{
+							"id": "level-2-helmet",
+							"name": "Level 2 Helmet",
+							"img": "icons/t_ui_vendor_helmet_002a.webp"
+						}
+					]
+				},
+				{
+					"level": 53,
+					"items": [
+						{
+							"id": "m1911-10-rnd-magazine",
+							"name": "M1911 10 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_063.webp"
+						}
+					]
+				},
+				{
+					"level": 55,
+					"items": [
+						{
+							"id": "ruck-backpack",
+							"name": "Ruck Backpack",
+							"img": "icons/t_ui_icon_largebackpack.webp"
+						}
+					]
+				},
+				{
+					"level": 60,
+					"items": [
+						{
+							"id": "tdg-vertical-foregrip",
+							"name": "TDG Vertical Foregrip",
+							"img": "icons/t_ui_vendor_fgrp_002.webp"
+						}
+					]
+				},
+				{
+					"level": 65,
+					"items": [
+						{
+							"id": "deagle",
+							"name": "Deagle",
+							"img": "icons/t_ui_vendor_wepn_027.webp"
+						},
+						{
+							"id": "deagle-7-rnd-magazine",
+							"name": "Deagle 7 RND Magazine",
+							"img": "icons/t_ui_vendor_magz_003.webp"
+						}
+					]
+				},
+				{
+					"level": 68,
+					"items": [
+						{
+							"id": "50ae-flesh-damage-hp-t",
+							"name": "50AE Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__50ae_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 70,
+					"items": [
+						{
+							"id": "gunner-backpack-sling",
+							"name": "Gunner Backpack + Sling",
+							"img": "icons/t_ui_vendor_backpack_006.webp"
+						}
+					]
+				},
+				{
+					"level": 75,
+					"items": [
+						{
+							"id": "308-win-flesh-damage-hp-t",
+							"name": ".308 Win Flesh Damage (HP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp"
+						}
+					]
+				},
+				{
+					"level": 76,
+					"items": [
+						{
+							"id": "5-45mm-armor-piercing-ap-t",
+							"name": "5.45mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_45x39_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 80,
+					"items": [
+						{
+							"id": "5-56mm-armor-piercing-ap-t",
+							"name": "5.56mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 85,
+					"items": [
+						{
+							"id": "ggx-50-rnd-drum-magazine",
+							"name": "GGX 50 RND Drum Magazine",
+							"img": "icons/t_ui_vendor_magz_011.webp"
+						}
+					]
+				},
+				{
+					"level": 90,
+					"items": [
+						{
+							"id": "9mm-armor-piercing-ap-t",
+							"name": "9mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_9x19mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 100,
+					"items": [
+						{
+							"id": "7-62mm-armor-piercing-ap-t",
+							"name": "7.62mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 110,
+					"items": [
+						{
+							"id": "ggx-18",
+							"name": "GGX 18",
+							"img": "icons/t_ui_vendor_wepn_032.webp"
+						}
+					]
+				},
+				{
+					"level": 120,
+					"items": [
+						{
+							"id": "45-colt-armor-piercing-ap-t",
+							"name": ".45 Colt Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_45colt_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 130,
+					"items": [
+						{
+							"id": "7-62x54mm-armor-piercing-ap-t",
+							"name": "7.62x54mm Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 140,
+					"items": [
+						{
+							"id": "45-acp-armor-piercing-ap-t",
+							"name": ".45 ACP Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox_45acp_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 145,
+					"items": [
+						{
+							"id": "sph-2",
+							"name": "SPH-2",
+							"img": "icons/t_ui_vehicle_pvtank_temp_512x512.webp"
+						}
+					]
+				},
+				{
+					"level": 150,
+					"items": [
+						{
+							"id": "level-3-armor",
+							"name": "Level 3 Armor",
+							"img": "icons/t_ui_vendor_armor_003a.webp"
+						},
+						{
+							"id": "level-3-helmet",
+							"name": "Level 3 Helmet",
+							"img": "icons/t_ui_vendor_helmet_003a.webp"
+						}
+					]
+				},
+				{
+					"level": 155,
+					"items": [
+						{
+							"id": "t-72b3",
+							"name": "T-72B3",
+							"img": "icons/t_ui_vendor_tnk_04.webp"
+						}
+					]
+				},
+				{
+					"level": 160,
+					"items": [
+						{
+							"id": "50ae-armor-piercing-ap-t",
+							"name": "50AE Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__50ae_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 165,
+					"items": [
+						{
+							"id": "flakpanzer-gepard",
+							"name": "Flakpanzer Gepard",
+							"img": "icons/t_ui_vendor_gepard.webp"
+						}
+					]
+				},
+				{
+					"level": 170,
+					"items": [
+						{
+							"id": "308-win-armor-piercing-ap-t",
+							"name": ".308 Win Armor Piercing (AP) (T)",
+							"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp"
+						}
+					]
+				},
+				{
+					"level": 180,
+					"items": [
+						{
+							"id": "level-4-armor",
+							"name": "Level 4 Armor",
+							"img": "icons/t_ui_vendor_armor_004a.webp"
+						},
+						{
+							"id": "level-4-helmet",
+							"name": "Level 4 Helmet",
+							"img": "icons/t_ui_vendor_helmet_004a.webp"
+						}
+					]
+				},
+				{
+					"level": 190,
+					"items": [
+						{
+							"id": "arsenal-backpack-2-slings",
+							"name": "Arsenal Backpack + 2 Slings",
+							"img": "icons/t_ui_vendor_backpack_007.webp"
+						}
+					]
+				},
+				{
+					"level": 200,
+					"items": [
+						{
+							"id": "l2a6",
+							"name": "L2A6",
+							"img": "icons/t_ui_icon_vehicle_hvy_tank_textured.webp"
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "30-cal-ss-phosphate-muzzle-brake",
+			"name": ".30 Cal SS Phosphate Muzzle Brake",
+			"img": "icons/t_ui_vendor_muzl_071.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 37
+				}
+			]
+		},
+		{
+			"id": "30-cal-steel-black-flash-hider",
+			"name": ".30 Cal Steel Black Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_072.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 42
+				}
+			]
+		},
+		{
+			"id": "308-win-armor-piercing-ap-t",
+			"name": ".308 Win Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox__308_ap.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 41
+				},
+				{
+					"track": "support",
+					"level": 41
+				},
+				{
+					"track": "recon",
+					"level": 35
+				},
+				{
+					"track": "pilot",
+					"level": 36
+				},
+				{
+					"track": "driver",
+					"level": 43
+				},
+				{
+					"track": "wardog",
+					"level": 170
+				}
+			]
+		},
+		{
+			"id": "308-win-flesh-damage-hp-t",
+			"name": ".308 Win Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox__308_hp.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 37
+				},
+				{
+					"track": "support",
+					"level": 31
+				},
+				{
+					"track": "recon",
+					"level": 31
+				},
+				{
+					"track": "pilot",
+					"level": 26
+				},
+				{
+					"track": "driver",
+					"level": 31
+				},
+				{
+					"track": "wardog",
+					"level": 75
+				}
+			]
+		},
+		{
+			"id": "45-acp-armor-piercing-ap-t",
+			"name": ".45 ACP Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_45acp_ap.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 41
+				},
+				{
+					"track": "wardog",
+					"level": 140
+				}
+			]
+		},
+		{
+			"id": "45-acp-flesh-damage-hp-t",
+			"name": ".45 ACP Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_45acp_hp.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 37
+				},
+				{
+					"track": "wardog",
+					"level": 49
+				}
+			]
+		},
+		{
+			"id": "45-acp-pistol-compensator",
+			"name": ".45 ACP Pistol Compensator",
+			"img": "icons/t_ui_vendor_muzl_050.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 43
+				}
+			]
+		},
+		{
+			"id": "45-colt-armor-piercing-ap-t",
+			"name": ".45 Colt Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_45colt_ap.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 120
+				}
+			]
+		},
+		{
+			"id": "45-colt-flesh-damage-hp-t",
+			"name": ".45 Colt Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_45colt_hp.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 19
+				}
+			]
+		},
+		{
+			"id": "50-cal-heavy-suppressor",
+			"name": ".50 Cal Heavy Suppressor",
+			"img": "icons/t_ui_vendor_muzl_049.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 48
+				}
+			]
+		},
+		{
+			"id": "12-gauge-suppressor",
+			"name": "12 Gauge Suppressor",
+			"img": "icons/t_ui_vendor_muzl_006.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 32
+				}
+			]
+		},
+		{
+			"id": "12g-rifled-slug",
+			"name": "12g Rifled Slug",
+			"img": "icons/t_ui_icon_ammobox_12g_slug_green.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 13
+				},
+				{
+					"track": "wardog",
+					"level": 32
+				}
+			]
+		},
+		{
+			"id": "2-5x-combat-optic",
+			"name": "2.5x Combat Optic",
+			"img": "icons/t_ui_vendor_sght_008.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "3-prong-flash-hider",
+			"name": "3 Prong Flash Hider",
+			"img": "icons/t_ui_vendor_mzl_013.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 7
+				}
+			]
+		},
+		{
+			"id": "3-chamber-brake",
+			"name": "3-Chamber Brake",
+			"img": "icons/t_ui_vendor_muzl_027.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 45
+				}
+			]
+		},
+		{
+			"id": "3x-tactical-prism-scope",
+			"name": "3x Tactical Prism Scope",
+			"img": "icons/t_ui_vendor_sght_029.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 33
+				}
+			]
+		},
+		{
+			"id": "3x-6x-lpvo-short-dot",
+			"name": "3x-6x LPVO Short Dot",
+			"img": "icons/t_ui_vendor_sght_011.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 11
+				}
+			]
+		},
+		{
+			"id": "40mm",
+			"name": "40mm",
+			"img": "icons/t_ui_icon_attachment_40mm_round_textured_512x512.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "45-angled-foregrip",
+			"name": "45° Angled Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_016.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 34
+				}
+			]
+		},
+		{
+			"id": "4x-combat-prism-scope-with-reflex",
+			"name": "4x Combat Prism Scope with Reflex",
+			"img": "icons/t_ui_vendor_sght_030.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 22
+				}
+			]
+		},
+		{
+			"id": "5-45mm-armor-piercing-ap-t",
+			"name": "5.45mm Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_5_45x39_ap.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 27
+				},
+				{
+					"track": "wardog",
+					"level": 76
+				}
+			]
+		},
+		{
+			"id": "5-45mm-flesh-damage-hp-t",
+			"name": "5.45mm Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_5_45x39_hp.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 6
+				},
+				{
+					"track": "wardog",
+					"level": 11
+				}
+			]
+		},
+		{
+			"id": "5-56mm-armor-piercing-ap-t",
+			"name": "5.56mm Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_ap.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 31
+				},
+				{
+					"track": "support",
+					"level": 29
+				},
+				{
+					"track": "recon",
+					"level": 27
+				},
+				{
+					"track": "driver",
+					"level": 29
+				},
+				{
+					"track": "wardog",
+					"level": 80
+				}
+			]
+		},
+		{
+			"id": "5-56mm-flesh-damage-hp-t",
+			"name": "5.56mm Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_5_56x45mm_hp.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 9
+				},
+				{
+					"track": "support",
+					"level": 24
+				},
+				{
+					"track": "recon",
+					"level": 7
+				},
+				{
+					"track": "driver",
+					"level": 9
+				},
+				{
+					"track": "wardog",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "50ae-armor-piercing-ap-t",
+			"name": "50AE Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox__50ae_ap.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 160
+				}
+			]
+		},
+		{
+			"id": "50ae-flesh-damage-hp-t",
+			"name": "50AE Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox__50ae_hp.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 68
+				}
+			]
+		},
+		{
+			"id": "6-10x-scope-moa",
+			"name": "6-10x Scope MOA",
+			"img": "icons/t_ui_icon_attachment_10x_optic_textured_512x512.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 19
+				}
+			]
+		},
+		{
+			"id": "6-10x-scope-mrad",
+			"name": "6-10x Scope MRAD",
+			"img": "icons/t_ui_icon_attachment_10x_optic_textured_512x512.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 28
+				}
+			]
+		},
+		{
+			"id": "6x-marksman-scope-reflex",
+			"name": "6x Marksman Scope + Reflex",
+			"img": "icons/t_ui_vendor_sght_036.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 43
+				}
+			]
+		},
+		{
+			"id": "7-62mm-armor-piercing-ap-t",
+			"name": "7.62mm Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_ap.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 39
+				},
+				{
+					"track": "recon",
+					"level": 28
+				},
+				{
+					"track": "wardog",
+					"level": 100
+				}
+			]
+		},
+		{
+			"id": "7-62mm-flesh-damage-hp-t",
+			"name": "7.62mm Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_7_62x39mm_hp.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 21
+				},
+				{
+					"track": "recon",
+					"level": 13
+				},
+				{
+					"track": "wardog",
+					"level": 14
+				}
+			]
+		},
+		{
+			"id": "7-62x54mm-armor-piercing-ap-t",
+			"name": "7.62x54mm Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_ap.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 37
+				},
+				{
+					"track": "recon",
+					"level": 34
+				},
+				{
+					"track": "driver",
+					"level": 38
+				},
+				{
+					"track": "wardog",
+					"level": 130
+				}
+			]
+		},
+		{
+			"id": "7-62x54mm-flesh-damage-hp-t",
+			"name": "7.62x54mm Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_7_62x54r_hp.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 19
+				},
+				{
+					"track": "recon",
+					"level": 17
+				},
+				{
+					"track": "driver",
+					"level": 36
+				},
+				{
+					"track": "wardog",
+					"level": 39
+				}
+			]
+		},
+		{
+			"id": "9k333-verba",
+			"name": "9K333 Verba",
+			"img": "icons/t_ui_vendor_wepn_025.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "9mm-armor-piercing-ap-t",
+			"name": "9mm Armor Piercing (AP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_9x19mm_ap.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 33
+				},
+				{
+					"track": "wardog",
+					"level": 90
+				}
+			]
+		},
+		{
+			"id": "9mm-flesh-damage-hp-t",
+			"name": "9mm Flesh Damage (HP) (T)",
+			"img": "icons/tracer_t_ui_icon_ammobox_9x19mm_hp.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 8
+				},
+				{
+					"track": "wardog",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "adrenaline-pen",
+			"name": "Adrenaline Pen",
+			"img": "icons/t_ui_item_stim_bc.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "afg-angled-foregrip",
+			"name": "AFG Angled Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_003.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 11
+				}
+			]
+		},
+		{
+			"id": "ah-6m-miniguns",
+			"name": "AH-6M [Miniguns]",
+			"img": "icons/t_ui_vehicle_littlebird_guns_bc.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "ah-6r-rockets",
+			"name": "AH-6R [Rockets]",
+			"img": "icons/t_ui_vendor_littlebird_3.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "ak74-60-rnd-magazine",
+			"name": "AK74 60 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_016.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "ak74-75-rnd-drum-magazine",
+			"name": "AK74 75 RND Drum Magazine",
+			"img": "icons/t_ui_vendor_magz_015.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 36
+				}
+			]
+		},
+		{
+			"id": "ammo-supply-pallet",
+			"name": "Ammo Supply Pallet",
+			"img": "icons/t_ui_supply_ammo_palette.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 14
+				},
+				{
+					"track": "driver",
+					"level": 11
+				},
+				{
+					"track": "wardog",
+					"level": 24
+				}
+			]
+		},
+		{
+			"id": "amp-9",
+			"name": "AMP-9",
+			"img": "icons/t_ui_vendor_wepn_014.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "amp-9-15-rnd-magazine",
+			"name": "AMP-9 15 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_061.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "amp-9-20-rnd-magazine",
+			"name": "AMP-9 20 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_052.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "amp-9-30-rnd-magazine",
+			"name": "AMP-9 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_043.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "amp-9-50-rnd-drum-magazine",
+			"name": "AMP-9 50 RND Drum Magazine",
+			"img": "icons/t_ui_vendor_magz_066.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 44
+				}
+			]
+		},
+		{
+			"id": "amp-9-9x19-suppressor",
+			"name": "AMP-9 9x19 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_051.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 27
+				}
+			]
+		},
+		{
+			"id": "amp-9-tactical-flash-hider",
+			"name": "AMP-9 Tactical Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_052.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 26
+				}
+			]
+		},
+		{
+			"id": "amr-50",
+			"name": "AMR 50",
+			"img": "icons/t_ui_vendor_wepn_024.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 41
+				}
+			]
+		},
+		{
+			"id": "amr-50-10-rnd-magazine",
+			"name": "AMR 50 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_026.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 49
+				}
+			]
+		},
+		{
+			"id": "amr-50-5-rnd-magazine",
+			"name": "AMR 50 5 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_sr04.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 41
+				}
+			]
+		},
+		{
+			"id": "amr-50-cal-muzzle-brake",
+			"name": "AMR 50 Cal Muzzle Brake",
+			"img": "icons/t_ui_vendor_muzl_048.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 42
+				}
+			]
+		},
+		{
+			"id": "ar-multi-caliber-suppressor",
+			"name": "AR Multi-Caliber Suppressor",
+			"img": "icons/t_ui_vendor_muzl_007.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 29
+				}
+			]
+		},
+		{
+			"id": "arsenal-backpack-2-slings",
+			"name": "Arsenal Backpack + 2 Slings",
+			"img": "icons/t_ui_vendor_backpack_007.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 48
+				},
+				{
+					"track": "medic",
+					"level": 48
+				},
+				{
+					"track": "support",
+					"level": 40
+				},
+				{
+					"track": "recon",
+					"level": 48
+				},
+				{
+					"track": "pilot",
+					"level": 46
+				},
+				{
+					"track": "driver",
+					"level": 46
+				},
+				{
+					"track": "wardog",
+					"level": 190
+				}
+			]
+		},
+		{
+			"id": "assault-backpack",
+			"name": "Assault Backpack",
+			"img": "icons/t_ui_vendor_backpack_008.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 18
+				},
+				{
+					"track": "medic",
+					"level": 14
+				},
+				{
+					"track": "support",
+					"level": 12
+				},
+				{
+					"track": "recon",
+					"level": 15
+				},
+				{
+					"track": "pilot",
+					"level": 22
+				},
+				{
+					"track": "driver",
+					"level": 22
+				},
+				{
+					"track": "wardog",
+					"level": 37
+				}
+			]
+		},
+		{
+			"id": "at-mine",
+			"name": "AT Mine",
+			"img": "icons/t_ui_item_mine_bc.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "ballista-brake",
+			"name": "Ballista Brake",
+			"img": "icons/t_ui_vendor_muzl_020.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "birdcage-flash-hider",
+			"name": "Birdcage Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_039.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 2
+				}
+			]
+		},
+		{
+			"id": "bmr-308",
+			"name": "BMR-308",
+			"img": "icons/t_ui_weapon_rfb_bc.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "bmr-308-flash-hider",
+			"name": "BMR-308 Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_055.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 24
+				}
+			]
+		},
+		{
+			"id": "bmr-308-suppressor",
+			"name": "BMR-308 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_056.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 33
+				}
+			]
+		},
+		{
+			"id": "c4-charge",
+			"name": "C4 Charge",
+			"img": "icons/t_ui_item_c4_bc.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "claymore",
+			"name": "Claymore",
+			"img": "icons/t_ui_icon_claymore_512x512.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 23
+				}
+			]
+		},
+		{
+			"id": "clutch-lok-muzzle-brake",
+			"name": "Clutch Lok Muzzle Brake",
+			"img": "icons/t_ui_weapons_muzl_068.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 22
+				}
+			]
+		},
+		{
+			"id": "compact-p-1-red-dot",
+			"name": "Compact P-1 Red Dot",
+			"img": "icons/t_ui_weapons_sght_038.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 21
+				}
+			]
+		},
+		{
+			"id": "compact-t-2-red-dot",
+			"name": "Compact T-2 Red Dot",
+			"img": "icons/t_ui_vendor_sght_013.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 18
+				}
+			]
+		},
+		{
+			"id": "compound-bow",
+			"name": "Compound Bow",
+			"img": "icons/t_ui_weapon_bow_bc.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "constrictor-brake",
+			"name": "Constrictor Brake",
+			"img": "icons/t_ui_vendor_muzl_022.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 33
+				}
+			]
+		},
+		{
+			"id": "cq-2x-prism-combat-scope",
+			"name": "CQ-2x Prism Combat Scope",
+			"img": "icons/t_ui_vendor_sght_028.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "cqb-74-brake",
+			"name": "CQB 74 Brake",
+			"img": "icons/t_ui_vendor_muzl_015.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "cqr-tactical-front-rail-grip",
+			"name": "CQR Tactical Front Rail Grip",
+			"img": "icons/t_ui_vendor_fgrp_014.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "cross-rifle-muzzle-brake",
+			"name": "Cross Rifle Muzzle Brake",
+			"img": "icons/t_ui_weapons_muzl_067.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 31
+				}
+			]
+		},
+		{
+			"id": "deadeye-flash-hider",
+			"name": "Deadeye Flash Hider",
+			"img": "icons/t_ui_muzl_037.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "deagle",
+			"name": "Deagle",
+			"img": "icons/t_ui_vendor_wepn_027.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 65
+				}
+			]
+		},
+		{
+			"id": "deagle-7-rnd-magazine",
+			"name": "Deagle 7 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_003.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 65
+				}
+			]
+		},
+		{
+			"id": "defibrillator",
+			"name": "Defibrillator",
+			"img": "icons/t_ui_icon_utility_defib_512x512.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 22
+				}
+			]
+		},
+		{
+			"id": "dtk-1-brake",
+			"name": "DTK-1 Brake",
+			"img": "icons/t_ui_vendor_muzl_028.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 9
+				}
+			]
+		},
+		{
+			"id": "dual-port-brake",
+			"name": "Dual Port Brake",
+			"img": "icons/t_ui_vendor_muzl_019.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 28
+				}
+			]
+		},
+		{
+			"id": "dune-buggy",
+			"name": "Dune Buggy",
+			"img": "icons/t_ui_icon_vehicle_dunebuggy_512x512.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "eclipse-flash-hider",
+			"name": "Eclipse Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_037.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 1
+				}
+			]
+		},
+		{
+			"id": "evo-3-ultra",
+			"name": "Evo-3 Ultra",
+			"img": "icons/t_ui_weapons_wepn_036.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "evo-3-ultra-50-rnd-box",
+			"name": "Evo-3 Ultra 50 RND Box",
+			"img": "icons/t_ui_weapons_magz_067.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "evo-3-ultra-bipod",
+			"name": "Evo-3 Ultra Bipod",
+			"img": "icons/t_ui_weapons_fgrp_019.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 33
+				}
+			]
+		},
+		{
+			"id": "fal",
+			"name": "FAL",
+			"img": "icons/t_ui_vendor_wepn_030.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "fal-10-rnd-magazine",
+			"name": "FAL 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_rfb.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "fal-20-rnd-magazine",
+			"name": "FAL 20 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_006.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "fal-30-rnd-magazine",
+			"name": "FAL 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_024.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "field-backpack",
+			"name": "Field Backpack",
+			"img": "icons/t_ui_vendor_backpack_005.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 6
+				},
+				{
+					"track": "medic",
+					"level": 3
+				},
+				{
+					"track": "support",
+					"level": 2
+				},
+				{
+					"track": "recon",
+					"level": 4
+				},
+				{
+					"track": "pilot",
+					"level": 4
+				},
+				{
+					"track": "driver",
+					"level": 4
+				},
+				{
+					"track": "wardog",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "field-resuscitator",
+			"name": "Field Resuscitator",
+			"img": "icons/t_ui_icon_enox_512x512.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 2
+				}
+			]
+		},
+		{
+			"id": "flakpanzer-gepard",
+			"name": "Flakpanzer Gepard",
+			"img": "icons/t_ui_vendor_gepard.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 45
+				},
+				{
+					"track": "wardog",
+					"level": 165
+				}
+			]
+		},
+		{
+			"id": "flow-through-308-suppressor",
+			"name": "Flow-Through .308 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_057.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 40
+				}
+			]
+		},
+		{
+			"id": "four-reticle-reflex",
+			"name": "Four Reticle Reflex",
+			"img": "icons/t_ui_vendor_sght_016.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 22
+				}
+			]
+		},
+		{
+			"id": "frontier-2-5x-10x-precision-scope",
+			"name": "Frontier 2.5x-10x Precision Scope",
+			"img": "icons/t_ui_vendor_sght_032.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 47
+				}
+			]
+		},
+		{
+			"id": "fuel-supply-pallet",
+			"name": "Fuel Supply Pallet",
+			"img": "icons/t_ui_supply_fuel_palette.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 19
+				},
+				{
+					"track": "driver",
+					"level": 19
+				},
+				{
+					"track": "wardog",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "full-choke",
+			"name": "Full Choke",
+			"img": "icons/t_ui_vendor_muzl_045.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "galil",
+			"name": "Galil",
+			"img": "icons/t_ui_vendor_wepn_029.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "galil-35-rnd-magazine",
+			"name": "Galil 35 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_005.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "galil-50-rnd-magazine",
+			"name": "Galil 50 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_060.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 16
+				}
+			]
+		},
+		{
+			"id": "ggx-17",
+			"name": "GGX 17",
+			"img": "icons/t_ui_vendor_wepn_010.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "ggx-17-rnd-magazine",
+			"name": "GGX 17 RND Magazine",
+			"img": "icons/t_ui_icon_attachment_cheap_magazine_9mm_textured_512x512.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "ggx-18",
+			"name": "GGX 18",
+			"img": "icons/t_ui_vendor_wepn_032.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 110
+				}
+			]
+		},
+		{
+			"id": "ggx-33-rnd-magazine",
+			"name": "GGX 33 RND Magazine",
+			"img": "icons/t_ui_magz_012.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 22
+				}
+			]
+		},
+		{
+			"id": "ggx-50-rnd-drum-magazine",
+			"name": "GGX 50 RND Drum Magazine",
+			"img": "icons/t_ui_vendor_magz_011.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 85
+				}
+			]
+		},
+		{
+			"id": "ghillie-body-suit",
+			"name": "Ghillie Body Suit",
+			"img": "icons/t_ui_icon_ghillie_body_bc.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 26
+				}
+			]
+		},
+		{
+			"id": "ghillie-body-suit-dead",
+			"name": "Ghillie Body Suit (Dead)",
+			"img": "icons/t_ui_vendor_ghilliebody__dead.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "ghillie-headwear",
+			"name": "Ghillie Headwear",
+			"img": "icons/t_ui_icon_ghillie_helmet_bc.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 26
+				}
+			]
+		},
+		{
+			"id": "ghillie-headwear-dead",
+			"name": "Ghillie Headwear (Dead)",
+			"img": "icons/t_ui_vendor_ghillie_dead.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "ghost-lite-muzzle-brake",
+			"name": "Ghost LITE Muzzle Brake",
+			"img": "icons/t_ui_vendor_muzl_047.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 40
+				}
+			]
+		},
+		{
+			"id": "gol-multi-caliber-suppressor",
+			"name": "GOL Multi-Caliber Suppressor",
+			"img": "icons/t_ui_vendor_muzl_004.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 44
+				}
+			]
+		},
+		{
+			"id": "gold-exchange",
+			"name": "Gold Exchange",
+			"img": "icons/t_ui_icon_goldmarket.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "gunner-backpack-sling",
+			"name": "Gunner Backpack + Sling",
+			"img": "icons/t_ui_vendor_backpack_006.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 29
+				},
+				{
+					"track": "medic",
+					"level": 29
+				},
+				{
+					"track": "support",
+					"level": 25
+				},
+				{
+					"track": "recon",
+					"level": 34
+				},
+				{
+					"track": "pilot",
+					"level": 34
+				},
+				{
+					"track": "driver",
+					"level": 34
+				},
+				{
+					"track": "wardog",
+					"level": 70
+				}
+			]
+		},
+		{
+			"id": "havoc",
+			"name": "Havoc",
+			"img": "icons/t_ui_vendor_havoc.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "heavy-drill",
+			"name": "Heavy Drill",
+			"img": "icons/t_ui_icon_drill_heavy.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 28
+				}
+			]
+		},
+		{
+			"id": "hexagon-762-suppressor",
+			"name": "Hexagon 762 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_008.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 14
+				}
+			]
+		},
+		{
+			"id": "hexagon-brake",
+			"name": "Hexagon Brake",
+			"img": "icons/t_ui_vendor_muzl_024.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 7
+				}
+			]
+		},
+		{
+			"id": "high-capacity-battery",
+			"name": "High Capacity Battery",
+			"img": "icons/t_ui_icon_drill_batterylarge.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 46
+				}
+			]
+		},
+		{
+			"id": "holographic-sight",
+			"name": "Holographic Sight",
+			"img": "icons/t_ui_vendor_sght_005.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 7
+				}
+			]
+		},
+		{
+			"id": "humvee",
+			"name": "Humvee",
+			"img": "icons/t_ui_vehicle_transport_humvee_temp_512x512.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "humvee-m249",
+			"name": "Humvee [M249]",
+			"img": "icons/t_ui_icon_vehicle_humvee_gun.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "humvee-minigun",
+			"name": "Humvee [Minigun]",
+			"img": "icons/t_ui_icon_vehicle_humvee_gun.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "hybrid-grip-pod",
+			"name": "Hybrid Grip Pod",
+			"img": "icons/t_ui_vendor_fgrp_004.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "improved-cylinder-choke",
+			"name": "Improved Cylinder Choke",
+			"img": "icons/t_ui_vendor_muzl_044.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "individual-first-aid-kit",
+			"name": "Individual First Aid Kit",
+			"img": "icons/t_ui_icon_utility_superbandage_textured_128x128.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "judge",
+			"name": "Judge",
+			"img": "icons/t_ui_vendor_wepn_020.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 1
+				}
+			]
+		},
+		{
+			"id": "kobra-reflex",
+			"name": "Kobra Reflex",
+			"img": "icons/t_ui_vendor_sght_009.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 4
+				}
+			]
+		},
+		{
+			"id": "kodiak-m249",
+			"name": "Kodiak [M249]",
+			"img": "icons/t_ui_vehicle_kodiak_machinegun.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 6
+				}
+			]
+		},
+		{
+			"id": "kodiak-pickup",
+			"name": "Kodiak [Pickup]",
+			"img": "icons/t_ui_vehicle_kodiak_pickup.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "l2a6",
+			"name": "L2A6",
+			"img": "icons/t_ui_icon_vehicle_hvy_tank_textured.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 50
+				},
+				{
+					"track": "wardog",
+					"level": 200
+				}
+			]
+		},
+		{
+			"id": "large-armored-crate",
+			"name": "Large Armored Crate",
+			"img": "icons/id_item_vehiclesupplycrate_large_armoured.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 30
+				},
+				{
+					"track": "driver",
+					"level": 24
+				}
+			]
+		},
+		{
+			"id": "large-crate",
+			"name": "Large Crate",
+			"img": "icons/id_item_vehiclesupplycrate_large.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 18
+				},
+				{
+					"track": "driver",
+					"level": 18
+				}
+			]
+		},
+		{
+			"id": "large-hammer",
+			"name": "Large Hammer",
+			"img": "icons/t_ui_vendor_build3.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 14
+				}
+			]
+		},
+		{
+			"id": "large-tac-vest",
+			"name": "Large Tac Vest",
+			"img": "icons/t_ui_icon_utility_largewebbing_textured_512x512.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 18
+				},
+				{
+					"track": "medic",
+					"level": 12
+				},
+				{
+					"track": "support",
+					"level": 21
+				},
+				{
+					"track": "recon",
+					"level": 19
+				},
+				{
+					"track": "pilot",
+					"level": 22
+				},
+				{
+					"track": "driver",
+					"level": 22
+				},
+				{
+					"track": "wardog",
+					"level": 47
+				}
+			]
+		},
+		{
+			"id": "leatherwood-art-ii",
+			"name": "Leatherwood ART II",
+			"img": "icons/t_ui_vendor_sght_039.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 27
+				}
+			]
+		},
+		{
+			"id": "level-1-armor",
+			"name": "Level 1 Armor",
+			"img": "icons/t_ui_vendor_armor_001a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 4
+				},
+				{
+					"track": "medic",
+					"level": 6
+				},
+				{
+					"track": "support",
+					"level": 6
+				},
+				{
+					"track": "recon",
+					"level": 6
+				},
+				{
+					"track": "pilot",
+					"level": 7
+				},
+				{
+					"track": "driver",
+					"level": 7
+				},
+				{
+					"track": "wardog",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "level-1-helmet",
+			"name": "Level 1 Helmet",
+			"img": "icons/t_ui_vendor_helmet_001a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 4
+				},
+				{
+					"track": "medic",
+					"level": 6
+				},
+				{
+					"track": "support",
+					"level": 6
+				},
+				{
+					"track": "recon",
+					"level": 6
+				},
+				{
+					"track": "pilot",
+					"level": 7
+				},
+				{
+					"track": "driver",
+					"level": 7
+				},
+				{
+					"track": "wardog",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "level-2-armor",
+			"name": "Level 2 Armor",
+			"img": "icons/t_ui_vendor_armor_002a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 14
+				},
+				{
+					"track": "medic",
+					"level": 16
+				},
+				{
+					"track": "support",
+					"level": 16
+				},
+				{
+					"track": "recon",
+					"level": 16
+				},
+				{
+					"track": "pilot",
+					"level": 21
+				},
+				{
+					"track": "driver",
+					"level": 21
+				},
+				{
+					"track": "wardog",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "level-2-helmet",
+			"name": "Level 2 Helmet",
+			"img": "icons/t_ui_vendor_helmet_002a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 14
+				},
+				{
+					"track": "medic",
+					"level": 16
+				},
+				{
+					"track": "support",
+					"level": 16
+				},
+				{
+					"track": "recon",
+					"level": 16
+				},
+				{
+					"track": "pilot",
+					"level": 21
+				},
+				{
+					"track": "driver",
+					"level": 21
+				},
+				{
+					"track": "wardog",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "level-3-armor",
+			"name": "Level 3 Armor",
+			"img": "icons/t_ui_vendor_armor_003a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 32
+				},
+				{
+					"track": "medic",
+					"level": 36
+				},
+				{
+					"track": "support",
+					"level": 36
+				},
+				{
+					"track": "recon",
+					"level": 36
+				},
+				{
+					"track": "pilot",
+					"level": 41
+				},
+				{
+					"track": "driver",
+					"level": 41
+				},
+				{
+					"track": "wardog",
+					"level": 150
+				}
+			]
+		},
+		{
+			"id": "level-3-helmet",
+			"name": "Level 3 Helmet",
+			"img": "icons/t_ui_vendor_helmet_003a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 32
+				},
+				{
+					"track": "medic",
+					"level": 36
+				},
+				{
+					"track": "support",
+					"level": 36
+				},
+				{
+					"track": "recon",
+					"level": 36
+				},
+				{
+					"track": "pilot",
+					"level": 41
+				},
+				{
+					"track": "driver",
+					"level": 41
+				},
+				{
+					"track": "wardog",
+					"level": 150
+				}
+			]
+		},
+		{
+			"id": "level-4-armor",
+			"name": "Level 4 Armor",
+			"img": "icons/t_ui_vendor_armor_004a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 40
+				},
+				{
+					"track": "medic",
+					"level": 45
+				},
+				{
+					"track": "support",
+					"level": 45
+				},
+				{
+					"track": "recon",
+					"level": 45
+				},
+				{
+					"track": "pilot",
+					"level": 50
+				},
+				{
+					"track": "driver",
+					"level": 48
+				},
+				{
+					"track": "wardog",
+					"level": 180
+				}
+			]
+		},
+		{
+			"id": "level-4-helmet",
+			"name": "Level 4 Helmet",
+			"img": "icons/t_ui_vendor_helmet_004a.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 40
+				},
+				{
+					"track": "medic",
+					"level": 45
+				},
+				{
+					"track": "support",
+					"level": 45
+				},
+				{
+					"track": "recon",
+					"level": 45
+				},
+				{
+					"track": "pilot",
+					"level": 50
+				},
+				{
+					"track": "driver",
+					"level": 48
+				},
+				{
+					"track": "wardog",
+					"level": 180
+				}
+			]
+		},
+		{
+			"id": "light-drill",
+			"name": "Light Drill",
+			"img": "icons/t_ui_icon_drill_medium.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 1
+				}
+			]
+		},
+		{
+			"id": "m14",
+			"name": "M14",
+			"img": "icons/t_ui_weapons_wepn_034.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "m14-10-rnd-magazine",
+			"name": "M14 10 RND Magazine",
+			"img": "icons/t_ui_weapons_magz_068.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "m14-20-rnd-magazine",
+			"name": "M14 20 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_071.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 31
+				}
+			]
+		},
+		{
+			"id": "m14-30-rnd-magazine",
+			"name": "M14 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_070.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 32
+				}
+			]
+		},
+		{
+			"id": "m14-bipod",
+			"name": "M14 Bipod",
+			"img": "icons/t_ui_vendor_frgp_020.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 29
+				}
+			]
+		},
+		{
+			"id": "m18-smoke-grenade-black",
+			"name": "M18 Smoke Grenade: Black",
+			"img": "icons/t_ui_icon_utility_smoke_textured_black_512x512.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 23
+				}
+			]
+		},
+		{
+			"id": "m18-smoke-grenade-white",
+			"name": "M18 Smoke Grenade: White",
+			"img": "icons/t_ui_icon_utility_smoke_textured_512x512_temp.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "m1911",
+			"name": "M1911",
+			"img": "icons/t_ui_vendor_wepn_026.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 40
+				}
+			]
+		},
+		{
+			"id": "m1911-10-rnd-magazine",
+			"name": "M1911 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_063.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 53
+				}
+			]
+		},
+		{
+			"id": "m1911-7-rnd-magazine",
+			"name": "M1911 7 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_002.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 40
+				}
+			]
+		},
+		{
+			"id": "m249-100-rnd-fabric-magazine",
+			"name": "M249 100 RND Fabric Magazine",
+			"img": "icons/t_ui_vendor_magz_062.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "m249-200-rnd-box",
+			"name": "M249 200 RND Box",
+			"img": "icons/t_ui_vendor_magz_038.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 26
+				}
+			]
+		},
+		{
+			"id": "m249-bipod",
+			"name": "M249 Bipod",
+			"img": "icons/t_ui_vendor_fgrp_008.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 23
+				}
+			]
+		},
+		{
+			"id": "m249-saw",
+			"name": "M249 SAW",
+			"img": "icons/t_ui_vendor_wepn_009.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "m4",
+			"name": "M4",
+			"img": "icons/t_ui_vendor_wepn_002.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 28
+				}
+			]
+		},
+		{
+			"id": "m500",
+			"name": "M500",
+			"img": "icons/t_ui_vendor_wepn_011.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "m500-sabre-brake",
+			"name": "M500 Sabre Brake",
+			"img": "icons/t_ui_vendor_muzl_031.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 11
+				}
+			]
+		},
+		{
+			"id": "maaws",
+			"name": "MAAWS",
+			"img": "icons/t_ui_vendor_wepn_013.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 18
+				}
+			]
+		},
+		{
+			"id": "mechanical-supply-pallet",
+			"name": "Mechanical Supply Pallet",
+			"img": "icons/t_ui_supply_mech_palette.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 11
+				},
+				{
+					"track": "driver",
+					"level": 4
+				},
+				{
+					"track": "wardog",
+					"level": 16
+				}
+			]
+		},
+		{
+			"id": "medical-bag",
+			"name": "Medical Bag",
+			"img": "icons/t_ui_icon_medkit_128x128.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 14
+				}
+			]
+		},
+		{
+			"id": "medium-hammer",
+			"name": "Medium Hammer",
+			"img": "icons/t_ui_item_hammer_2_bc.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 3
+				}
+			]
+		},
+		{
+			"id": "medium-tac-vest",
+			"name": "Medium Tac Vest",
+			"img": "icons/t_ui_icon_utility_mediumwebbing_textured_512x512.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 8
+				},
+				{
+					"track": "medic",
+					"level": 5
+				},
+				{
+					"track": "support",
+					"level": 9
+				},
+				{
+					"track": "recon",
+					"level": 9
+				},
+				{
+					"track": "pilot",
+					"level": 14
+				},
+				{
+					"track": "driver",
+					"level": 14
+				},
+				{
+					"track": "wardog",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "mgl-40",
+			"name": "MGL-40",
+			"img": "icons/t_ui_vendor_wepn_012.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "mini-angled-foregrip",
+			"name": "Mini Angled Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_018.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 36
+				}
+			]
+		},
+		{
+			"id": "mk22",
+			"name": "MK22",
+			"img": "icons/t_ui_vendor_wepn_018.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "mk22-10-rnd-magazine",
+			"name": "MK22 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_mk22.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 39
+				}
+			]
+		},
+		{
+			"id": "mk22-5-rnd-magazine",
+			"name": "MK22 5 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_034.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "molotov-cocktail",
+			"name": "Molotov Cocktail",
+			"img": "icons/t_ui_utility_molotov.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "monocular",
+			"name": "Monocular",
+			"img": "icons/t_ui_vendor_monocle_temp.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 2
+				}
+			]
+		},
+		{
+			"id": "mosin-nagant",
+			"name": "Mosin Nagant",
+			"img": "icons/t_ui_vendor_wepn_017.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "mp5",
+			"name": "MP5",
+			"img": "icons/t_ui_vendor_wepn_028.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 4
+				}
+			]
+		},
+		{
+			"id": "mp5-20-rnd-magazine",
+			"name": "MP5 20 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_064.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 4
+				}
+			]
+		},
+		{
+			"id": "mp5-30-rnd-magazine",
+			"name": "MP5 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_004.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "mp5-50-rnd-drum-magazine",
+			"name": "MP5 50 RND Drum Magazine",
+			"img": "icons/t_ui_vendor_magz_056.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 29
+				}
+			]
+		},
+		{
+			"id": "musictape-01",
+			"name": "MusicTape 01",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "musictape-02",
+			"name": "MusicTape 02",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 23
+				}
+			]
+		},
+		{
+			"id": "musictape-03",
+			"name": "MusicTape 03",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 28
+				}
+			]
+		},
+		{
+			"id": "musictape-04",
+			"name": "MusicTape 04",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 33
+				}
+			]
+		},
+		{
+			"id": "musictape-05",
+			"name": "MusicTape 05",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 33
+				}
+			]
+		},
+		{
+			"id": "musictape-06",
+			"name": "MusicTape 06",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "musictape-07",
+			"name": "MusicTape 07",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "musictape-08",
+			"name": "MusicTape 08",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "musictape-09",
+			"name": "MusicTape 09",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 23
+				}
+			]
+		},
+		{
+			"id": "musictape-11",
+			"name": "MusicTape 11",
+			"img": "icons/placeholder.svg",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 28
+				}
+			]
+		},
+		{
+			"id": "okp-7-reflex",
+			"name": "OKP 7 Reflex",
+			"img": "icons/t_ui_vendor_sght_023.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 26
+				}
+			]
+		},
+		{
+			"id": "operator-backpack",
+			"name": "Operator Backpack",
+			"img": "icons/t_ui_icon_mediumbackpack.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 11
+				},
+				{
+					"track": "medic",
+					"level": 11
+				},
+				{
+					"track": "support",
+					"level": 7
+				},
+				{
+					"track": "recon",
+					"level": 11
+				},
+				{
+					"track": "pilot",
+					"level": 12
+				},
+				{
+					"track": "driver",
+					"level": 12
+				},
+				{
+					"track": "wardog",
+					"level": 25
+				}
+			]
+		},
+		{
+			"id": "orpheus-max-brake",
+			"name": "Orpheus Max Brake",
+			"img": "icons/t_ui_vendor_muzl_029.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 46
+				}
+			]
+		},
+		{
+			"id": "pbs-4-suppressor",
+			"name": "PBS-4 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_009.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 19
+				}
+			]
+		},
+		{
+			"id": "pgo-7",
+			"name": "PGO-7",
+			"img": "icons/t_ui_vendor_sght_034.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "pkm",
+			"name": "PKM",
+			"img": "icons/t_ui_vendor_wepn_019.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "pkm-100-rnd-box",
+			"name": "PKM 100 RND Box",
+			"img": "icons/t_ui_vendor_magz_lmg.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "pkm-bipod",
+			"name": "PKM Bipod",
+			"img": "icons/t_ui_vendor_fgrp_008.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "pp-19-50-rnd-vityaz-drum-magazine",
+			"name": "PP-19 50 RND Vityaz Drum Magazine",
+			"img": "icons/t_ui_vendor_magz_046.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 21
+				}
+			]
+		},
+		{
+			"id": "pp-19-vityaz",
+			"name": "PP-19 Vityaz",
+			"img": "icons/t_ui_vendor_wepn_023.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "pp-19-vityaz-10-rnd-magazine",
+			"name": "PP-19 Vityaz 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_059.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "pp-19-vityaz-30-rnd-magazine",
+			"name": "PP-19 Vityaz 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_pp19.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 15
+				}
+			]
+		},
+		{
+			"id": "pp-19-vityaz-flash-hider",
+			"name": "PP-19 Vityaz Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_054.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 18
+				}
+			]
+		},
+		{
+			"id": "pp-19-01-vityaz-9x19-suppressor",
+			"name": "PP-19-01 Vityaz 9x19 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_053.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 24
+				}
+			]
+		},
+		{
+			"id": "pro-tilt-bipod",
+			"name": "Pro Tilt Bipod",
+			"img": "icons/t_ui_vendor_fgrp_009.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 46
+				}
+			]
+		},
+		{
+			"id": "pu-91-30-scope",
+			"name": "PU 91/30 Scope",
+			"img": "icons/t_ui_vendor_sght_040.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "qd-5-suppressor",
+			"name": "QD-5 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_058.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "range-finder",
+			"name": "Range Finder",
+			"img": "icons/t_ui_icon_rangefinder_1.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "rc-556-suppressor",
+			"name": "RC-556 Suppressor",
+			"img": "icons/t_ui_vendor_muzl_032.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 24
+				}
+			]
+		},
+		{
+			"id": "remote-detonator",
+			"name": "Remote Detonator",
+			"img": "icons/t_ui_icon_c4_trigger.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "rk6-tactical-foregrip",
+			"name": "RK6 Tactical Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_001.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "rpg-7",
+			"name": "RPG-7",
+			"img": "icons/t_ui_vendor_wepn_022.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "rubberized-ergonomic-foregrip",
+			"name": "Rubberized Ergonomic Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_015.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "ruck-backpack",
+			"name": "Ruck Backpack",
+			"img": "icons/t_ui_icon_largebackpack.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 23
+				},
+				{
+					"track": "medic",
+					"level": 23
+				},
+				{
+					"track": "support",
+					"level": 21
+				},
+				{
+					"track": "recon",
+					"level": 23
+				},
+				{
+					"track": "pilot",
+					"level": 26
+				},
+				{
+					"track": "driver",
+					"level": 26
+				},
+				{
+					"track": "wardog",
+					"level": 55
+				}
+			]
+		},
+		{
+			"id": "rvg-vertical-foregrip",
+			"name": "RVG Vertical Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_006.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 38
+				}
+			]
+		},
+		{
+			"id": "sg-multi-caliber-suppressor",
+			"name": "SG Multi-Caliber Suppressor",
+			"img": "icons/t_ui_vendor_muzl_005.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 46
+				}
+			]
+		},
+		{
+			"id": "shift-foregrip",
+			"name": "Shift Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_007.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 46
+				}
+			]
+		},
+		{
+			"id": "sks",
+			"name": "SKS",
+			"img": "icons/t_ui_vendor_wepn_007.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 5
+				}
+			]
+		},
+		{
+			"id": "sks-bipod",
+			"name": "SKS Bipod",
+			"img": "icons/t_ui_vendor_fgrp_008.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 7
+				}
+			]
+		},
+		{
+			"id": "sl7i-bl-suppressor",
+			"name": "SL7i-BL Suppressor",
+			"img": "icons/t_ui_vendor_muzl_058.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 43
+				}
+			]
+		},
+		{
+			"id": "slicktap-brake",
+			"name": "Slicktap Brake",
+			"img": "icons/t_ui_vendor_muzl_025.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 43
+				}
+			]
+		},
+		{
+			"id": "slotted-flash-hider",
+			"name": "Slotted Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_038.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 19
+				}
+			]
+		},
+		{
+			"id": "small-armored-crate",
+			"name": "Small Armored Crate",
+			"img": "icons/id_item_vehiclesupplycrate_small_armoured.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 2
+				},
+				{
+					"track": "driver",
+					"level": 2
+				}
+			]
+		},
+		{
+			"id": "spectr-4x",
+			"name": "Spectr 4x",
+			"img": "icons/t_ui_vendor_sght_001.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 43
+				}
+			]
+		},
+		{
+			"id": "sph-2",
+			"name": "SPH-2",
+			"img": "icons/t_ui_vehicle_pvtank_temp_512x512.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 40
+				},
+				{
+					"track": "wardog",
+					"level": 145
+				}
+			]
+		},
+		{
+			"id": "spitfire-3x",
+			"name": "Spitfire 3X",
+			"img": "icons/t_ui_vendor_sght_024.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 31
+				}
+			]
+		},
+		{
+			"id": "sport-parachute",
+			"name": "Sport Parachute",
+			"img": "icons/t_ui_icon_parachute_sport.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 15
+				},
+				{
+					"track": "medic",
+					"level": 18
+				},
+				{
+					"track": "support",
+					"level": 18
+				},
+				{
+					"track": "recon",
+					"level": 22
+				},
+				{
+					"track": "pilot",
+					"level": 15
+				},
+				{
+					"track": "driver",
+					"level": 18
+				},
+				{
+					"track": "wardog",
+					"level": 45
+				}
+			]
+		},
+		{
+			"id": "srd762ti-qd",
+			"name": "SRD762TI-QD",
+			"img": "icons/t_ui_weapons_muzl_069.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 42
+				}
+			]
+		},
+		{
+			"id": "srvv-brake",
+			"name": "SRVV Brake",
+			"img": "icons/t_ui_vendor_muzl_041.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 22
+				}
+			]
+		},
+		{
+			"id": "stanag-30-rnd-magazine",
+			"name": "STANAG 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_stanag.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 3
+				}
+			]
+		},
+		{
+			"id": "stanag-60-rnd-magazine",
+			"name": "STANAG 60 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_054.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 30
+				}
+			]
+		},
+		{
+			"id": "strelix-suppressor",
+			"name": "STRELIX Suppressor",
+			"img": "icons/t_ui_vendor_muzl_062.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 3
+				}
+			]
+		},
+		{
+			"id": "super-45",
+			"name": "Super-45",
+			"img": "icons/t_ui_vendor_wepn_006.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "super-45-13-rnd-magazine",
+			"name": "Super-45 13 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_057.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 35
+				}
+			]
+		},
+		{
+			"id": "super-45-30-rnd-magazine",
+			"name": "Super-45 30 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_vector.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 42
+				}
+			]
+		},
+		{
+			"id": "super-45-40-rnd-drum-magazine",
+			"name": "Super-45 40 RND Drum Magazine",
+			"img": "icons/t_ui_vendor_magz_055.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 50
+				}
+			]
+		},
+		{
+			"id": "super-45-flash-hider",
+			"name": "Super-45 Flash Hider",
+			"img": "icons/t_ui_vendor_muzl_046.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 37
+				}
+			]
+		},
+		{
+			"id": "sv98",
+			"name": "SV98",
+			"img": "icons/t_ui_vendor_wepn_008.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 18
+				}
+			]
+		},
+		{
+			"id": "sv98-10-rnd-magazine",
+			"name": "SV98 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_010.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 18
+				}
+			]
+		},
+		{
+			"id": "sv98-bipod",
+			"name": "SV98 Bipod",
+			"img": "icons/t_ui_vendor_fgrp_009.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 21
+				}
+			]
+		},
+		{
+			"id": "svd",
+			"name": "SVD",
+			"img": "icons/t_ui_vendor_wepn_015.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "svd-10-rnd-magazine",
+			"name": "SVD 10 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_svdm.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "svd-5-rnd-magazine",
+			"name": "SVD 5 RND Magazine",
+			"img": "icons/t_ui_vendor_magz_svdm.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 12
+				}
+			]
+		},
+		{
+			"id": "svd-7-62x54r-brake",
+			"name": "SVD 7.62x54R Brake",
+			"img": "icons/t_ui_vendor_muzl_040.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 13
+				}
+			]
+		},
+		{
+			"id": "svd-bipod",
+			"name": "SVD Bipod",
+			"img": "icons/t_ui_vendor_fgrp_008.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 14
+				}
+			]
+		},
+		{
+			"id": "t-21",
+			"name": "T-21",
+			"img": "icons/t_ui_vendor_wepn_005.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 3
+				}
+			]
+		},
+		{
+			"id": "t-72b3",
+			"name": "T-72B3",
+			"img": "icons/t_ui_vendor_tnk_04.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 35
+				},
+				{
+					"track": "wardog",
+					"level": 155
+				}
+			]
+		},
+		{
+			"id": "tcx-spr",
+			"name": "TCX-SPR",
+			"img": "icons/t_ui_weapons_wepn_037.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "tcx-spr-28-rnd-magazine",
+			"name": "TCX-SPR 28 RND Magazine",
+			"img": "icons/t_ui_weapons_magz_069.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "tdg-vertical-foregrip",
+			"name": "TDG Vertical Foregrip",
+			"img": "icons/t_ui_vendor_fgrp_002.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 60
+				}
+			]
+		},
+		{
+			"id": "tgp-a-suppressor-5-45",
+			"name": "TGP-A Suppressor 5.45",
+			"img": "icons/t_ui_vendor_muzl_010.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 27
+				}
+			]
+		},
+		{
+			"id": "three-port-brake",
+			"name": "Three Port Brake",
+			"img": "icons/t_ui_vendor_muzl_030.webp",
+			"sources": [
+				{
+					"track": "recon",
+					"level": 49
+				}
+			]
+		},
+		{
+			"id": "topcomp-brake",
+			"name": "TopComp Brake",
+			"img": "icons/t_ui_vendor_muzl_014.webp",
+			"sources": [
+				{
+					"track": "assault",
+					"level": 21
+				}
+			]
+		},
+		{
+			"id": "tread-brake",
+			"name": "Tread Brake",
+			"img": "icons/t_ui_vendor_muzl_023.webp",
+			"sources": [
+				{
+					"track": "support",
+					"level": 27
+				}
+			]
+		},
+		{
+			"id": "tricon-1-5x-compact-prism-scope",
+			"name": "Tricon 1.5x Compact Prism Scope",
+			"img": "icons/t_ui_vendor_sght_026.webp",
+			"sources": [
+				{
+					"track": "wardog",
+					"level": 26
+				}
+			]
+		},
+		{
+			"id": "ural",
+			"name": "URAL",
+			"img": "icons/t_ui_vehicle_ural.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 3
+				}
+			]
+		},
+		{
+			"id": "ural-defender",
+			"name": "Ural Defender",
+			"img": "icons/t_ui_vendor_ural_2.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 16
+				}
+			]
+		},
+		{
+			"id": "ural-defender-m249",
+			"name": "Ural Defender [M249]",
+			"img": "icons/t_ui_vendor_ural_3.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 20
+				}
+			]
+		},
+		{
+			"id": "vektor-frenix-x-micro-reflex-sight",
+			"name": "Vektor Frenix-X Micro Reflex Sight",
+			"img": "icons/t_ui_vendor_sght_027.webp",
+			"sources": [
+				{
+					"track": "medic",
+					"level": 19
+				}
+			]
+		},
+		{
+			"id": "wolf-110",
+			"name": "Wolf-110",
+			"img": "icons/t_ui_vendor_whl_08.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 8
+				}
+			]
+		},
+		{
+			"id": "wolf-110-m2-browning",
+			"name": "Wolf-110 [M2 Browning]",
+			"img": "icons/t_ui_vendor_whl_08_gun.webp",
+			"sources": [
+				{
+					"track": "driver",
+					"level": 17
+				}
+			]
+		},
+		{
+			"id": "z20-lakota",
+			"name": "Z20 Lakota",
+			"img": "icons/t_ui_vendoricon_rot_4.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 10
+				}
+			]
+		},
+		{
+			"id": "z20-lakota-miniguns",
+			"name": "Z20 Lakota [Miniguns]",
+			"img": "icons/t_ui_vendoricon_rot_4_minigun.webp",
+			"sources": [
+				{
+					"track": "pilot",
+					"level": 25
+				}
+			]
+		}
+	]
+}
