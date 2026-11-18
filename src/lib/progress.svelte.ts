@@ -7,32 +7,54 @@ function emptyXp(): Record<SkillId, number> {
 	return Object.fromEntries(SKILL_IDS.map((id) => [id, 0])) as Record<SkillId, number>;
 }
 
-function loadXp(): Record<SkillId, number> {
+/** Normalize arbitrary input into a complete, non-negative integer XP record. */
+function sanitizeXp(values: Partial<Record<SkillId, number>>): Record<SkillId, number> {
 	const xp = emptyXp();
-	if (!browser) return xp;
-	try {
-		const raw = localStorage.getItem(STORAGE_KEY);
-		if (!raw) return xp;
-		const parsed = JSON.parse(raw) as Record<string, unknown>;
-		for (const id of SKILL_IDS) {
-			const value = Number(parsed[id]);
-			if (Number.isFinite(value) && value > 0) xp[id] = Math.floor(value);
-		}
-	} catch {
-		// Ignore unreadable storage and fall back to an empty progress.
+	for (const id of SKILL_IDS) {
+		const value = Number(values[id]);
+		if (Number.isFinite(value) && value > 0) xp[id] = Math.floor(value);
 	}
 	return xp;
 }
 
+function loadXp(): Record<SkillId, number> {
+	if (!browser) return emptyXp();
+	try {
+		const raw = localStorage.getItem(STORAGE_KEY);
+		if (!raw) return emptyXp();
+		return sanitizeXp(JSON.parse(raw) as Partial<Record<SkillId, number>>);
+	} catch {
+		// Ignore unreadable storage and fall back to an empty progress.
+		return emptyXp();
+	}
+}
+
 class ProgressStore {
-	xp = $state<Record<SkillId, number>>(loadXp());
+	#local = $state<Record<SkillId, number>>(loadXp());
+	#preview = $state<Record<SkillId, number> | null>(null);
+
+	/** The XP currently displayed: shared preview data when active, otherwise local data. */
+	get xp(): Record<SkillId, number> {
+		return this.#preview ?? this.#local;
+	}
+
+	/** Whether progress can be edited (false while viewing shared/exported data). */
+	get editable(): boolean {
+		return this.#preview === null;
+	}
+
+	/** Whether shared/exported data is currently being previewed. */
+	get previewing(): boolean {
+		return this.#preview !== null;
+	}
 
 	get total(): number {
 		return SKILL_IDS.reduce((sum, id) => sum + this.xp[id], 0);
 	}
 
 	set(id: SkillId, value: number) {
-		this.xp[id] = Math.max(0, Math.floor(Number.isFinite(value) ? value : 0));
+		if (!this.editable) return;
+		this.#local[id] = Math.max(0, Math.floor(Number.isFinite(value) ? value : 0));
 		this.#save();
 	}
 
@@ -41,14 +63,33 @@ class ProgressStore {
 	}
 
 	reset() {
-		this.xp = emptyXp();
+		if (!this.editable) return;
+		this.#local = emptyXp();
 		this.#save();
+	}
+
+	/** Show `values` without touching local storage, until committed or cancelled. */
+	preview(values: Partial<Record<SkillId, number>>) {
+		this.#preview = sanitizeXp(values);
+	}
+
+	/** Save the previewed values to local storage and resume editing. */
+	commitPreview() {
+		if (!this.#preview) return;
+		this.#local = { ...this.#preview };
+		this.#preview = null;
+		this.#save();
+	}
+
+	/** Stop previewing without saving. */
+	cancelPreview() {
+		this.#preview = null;
 	}
 
 	#save() {
 		if (!browser) return;
 		try {
-			localStorage.setItem(STORAGE_KEY, JSON.stringify(this.xp));
+			localStorage.setItem(STORAGE_KEY, JSON.stringify(this.#local));
 		} catch {
 			// Ignore quota/private-mode errors; progress simply won't persist.
 		}

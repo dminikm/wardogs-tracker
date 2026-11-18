@@ -16,9 +16,12 @@ there is no backend and no account.
 
 ## Features
 
-- **Per-track XP entry** with `Next level` / `Prev level` shortcuts.
+- **Per-track XP entry** with `Next level` / `Prev level` shortcuts, plus inline XP editing on
+  each progression track page.
 - **Seven progression views** — one for each progression track (Assault, Medic, Support, Recon,
   Pilot, Driver) plus the overall Wardog track.
+- **Export/import via URL** — copy a link that carries your progress; opening it shows a read-only
+  preview you can import.
 - **Grouped unlock tables** showing the items unlocked at each level, the XP required,
   where you currently are, and a projected unlock date.
 - **Local persistence** via `localStorage` (no data leaves your device).
@@ -55,6 +58,14 @@ progression tracks you care about.
 
 Estimates are rough by design — they assume your average pace stays constant and ignore
 future changes in play time.
+
+### Sharing progress
+
+The **Export link** button in the header copies a URL containing your current XP values
+(`?xp=…`). Opening that URL loads the tracker in a read-only preview: the shared values are shown
+but editing is disabled and your own local progress is left untouched. The header button becomes
+**Import progress**, which saves the shared values to `localStorage` and re-enables editing. A
+**Discard** action in the banner exits the preview without saving.
 
 ## Data
 

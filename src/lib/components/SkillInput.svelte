@@ -31,8 +31,9 @@
 			min="0"
 			step="1"
 			value={xp}
+			disabled={!progress.editable}
 			oninput={onInput}
-			class="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-amber-500"
+			class="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-amber-500 disabled:cursor-not-allowed disabled:bg-slate-100 disabled:text-slate-500"
 		/>
 	</label>
 
@@ -40,7 +41,7 @@
 		<button
 			type="button"
 			class="flex-1 rounded-lg border border-slate-300 bg-white px-2 py-1.5 text-xs text-slate-700 hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40"
-			disabled={level === 0}
+			disabled={level === 0 || !progress.editable}
 			onclick={() => progress.set(id, prevXp)}
 		>
 			← Prev level
@@ -48,7 +49,7 @@
 		<button
 			type="button"
 			class="flex-1 rounded-lg border border-slate-300 bg-white px-2 py-1.5 text-xs text-slate-700 hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40"
-			disabled={nextXp === null}
+			disabled={nextXp === null || !progress.editable}
 			onclick={() => nextXp !== null && progress.set(id, nextXp)}
 		>
 			Next level →

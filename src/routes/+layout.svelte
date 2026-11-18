@@ -1,6 +1,9 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
+	import ShareControls from '#lib/components/ShareControls.svelte';
+	import { progress } from '#lib/progress.svelte';
+	import { discardShared } from '#lib/share';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { ALL_TRACK_IDS, TRACK_NAMES } from '#lib/tracks';
@@ -39,7 +42,29 @@
 					</a>
 				{/each}
 			</nav>
+			<div class="ml-auto">
+				<ShareControls />
+			</div>
 		</div>
+		{#if progress.previewing}
+			<div class="border-t border-amber-200 bg-amber-50">
+				<div
+					class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-2 text-sm text-amber-800"
+				>
+					<p>
+						Viewing shared progress — editing is disabled. Import it to save these values to this
+						browser.
+					</p>
+					<button
+						type="button"
+						class="text-xs font-semibold underline hover:no-underline"
+						onclick={discardShared}
+					>
+						Discard
+					</button>
+				</div>
+			</div>
+		{/if}
 	</header>
 	<main class="mx-auto max-w-6xl px-4 py-6">
 		{@render children()}
