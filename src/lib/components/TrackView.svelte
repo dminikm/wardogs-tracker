@@ -27,6 +27,7 @@
 	);
 	const elapsed = $derived(elapsedHours(data.season, now));
 	const rate = $derived(elapsed > 0 ? currentXp / elapsed : 0);
+	const seasonEndMs = $derived(new Date(data.season.end).getTime());
 	const nextXp = $derived(skillId ? xpForLevel(currentLevel + 1, data.levels.xp) : null);
 	const prevXp = $derived(skillId ? (xpForLevel(currentLevel - 1, data.levels.xp) ?? 0) : 0);
 
@@ -47,7 +48,8 @@
 			!skillId && estimate.inHours !== null && Number.isFinite(estimate.inHours)
 				? progress.total + estimate.rate * estimate.inHours
 				: null;
-		return { level, items, threshold, reached, estimate, totalXpAt };
+		const pastSeason = estimate.at !== null && estimate.at > seasonEndMs;
+		return { level, items, threshold, reached, estimate, totalXpAt, pastSeason };
 	}
 
 	const unlockRows = $derived.by(() =>
@@ -239,7 +241,7 @@
 								{/if}
 							</td>
 							<td class="px-3 py-3 text-center align-middle">
-								<EstimateBadge estimate={row.estimate} />
+								<EstimateBadge estimate={row.estimate} pastSeason={row.pastSeason} />
 							</td>
 						{/if}
 					</tr>
